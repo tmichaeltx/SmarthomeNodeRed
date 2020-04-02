@@ -1,0 +1,12 @@
+{
+    "name": "SmarthomeNodeRed",
+    "description": "This is my Node Red work for Smarthome control",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
