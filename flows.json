@@ -506,22 +506,6 @@
         "debug": true
     },
     {
-        "id": "49ec1688.bb5d58",
-        "type": "ui_group",
-        "z": "",
-        "name": "Stat",
-        "tab": "8cdb6014.0e216",
-        "disp": false,
-        "width": "6"
-    },
-    {
-        "id": "8cdb6014.0e216",
-        "type": "ui_tab",
-        "z": "",
-        "name": "Stat",
-        "icon": "dashboard"
-    },
-    {
         "id": "a5bf81ee.27852",
         "type": "mqtt-broker",
         "z": "",
@@ -2436,7 +2420,7 @@
         "deviceId": "388",
         "attribute": "switch",
         "sendEvent": true,
-        "x": 440,
+        "x": 420,
         "y": 80,
         "wires": [
             [
@@ -7149,10 +7133,324 @@
         "Service": "Motion Sensor",
         "device": "HomebridgeCC:22:3D:E3:CE:30NestEva Hallway Motion00000085",
         "conf": "d417815c.8097e",
-        "x": 530,
+        "x": 550,
+        "y": 220,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "19855914.8a6937",
+        "type": "hb-status",
+        "z": "b4c51043.d4017",
+        "name": "Downstairs Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestDownstairs Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 550,
         "y": 180,
         "wires": [
-            []
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "7e5556f8.345738",
+        "type": "hb-status",
+        "z": "b4c51043.d4017",
+        "name": "Evas Bedroom Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestEvas Bedroom Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 540,
+        "y": 260,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "f0e5f32e.7ab88",
+        "type": "hb-status",
+        "z": "b4c51043.d4017",
+        "name": "Game Room Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestGame Room Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 540,
+        "y": 300,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "ebe1aaca.b6af38",
+        "type": "hb-status",
+        "z": "b4c51043.d4017",
+        "name": "Guest Bedroom Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestGuest Bedroom Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 530,
+        "y": 340,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "bfabb149.a01e7",
+        "type": "hb-status",
+        "z": "b4c51043.d4017",
+        "name": "Master Bedroom Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestMaster Bedroom Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 530,
+        "y": 380,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "148d8882.7ae487",
+        "type": "hb-status",
+        "z": "b4c51043.d4017",
+        "name": "Toy Room Hallway Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestToy Room Hallway Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 530,
+        "y": 420,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "8c97ec84.a8933",
+        "type": "debug",
+        "z": "b4c51043.d4017",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 960,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "c63d5cc1.2030a",
+        "type": "inject",
+        "z": "b4c51043.d4017",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 180,
+        "y": 260,
+        "wires": [
+            [
+                "17968f43.3cf071",
+                "19855914.8a6937",
+                "7e5556f8.345738",
+                "f0e5f32e.7ab88",
+                "ebe1aaca.b6af38",
+                "bfabb149.a01e7",
+                "148d8882.7ae487",
+                "e59bf9de.b59908"
+            ]
+        ]
+    },
+    {
+        "id": "c8b62437.aac2b8",
+        "type": "hb-event",
+        "z": "b4c51043.d4017",
+        "name": "Downstairs Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestDownstairs Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 550,
+        "y": 520,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "e59bf9de.b59908",
+        "type": "hb-status",
+        "z": "b4c51043.d4017",
+        "name": "Toy Room Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestToy Room Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 550,
+        "y": 460,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "9576dae8.7bda88",
+        "type": "hb-event",
+        "z": "b4c51043.d4017",
+        "name": "Eva Hallway Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestEva Hallway Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 550,
+        "y": 560,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "967c112d.33448",
+        "type": "hb-event",
+        "z": "b4c51043.d4017",
+        "name": "Evas Bedroom Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestEvas Bedroom Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 540,
+        "y": 600,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "dabf19b3.90e888",
+        "type": "hb-event",
+        "z": "b4c51043.d4017",
+        "name": "Game Room Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestGame Room Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 550,
+        "y": 640,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "70ac938f.308e9c",
+        "type": "hb-event",
+        "z": "b4c51043.d4017",
+        "name": "Guest Bedroom Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestGuest Bedroom Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 540,
+        "y": 680,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "f27e35df.314bb8",
+        "type": "hb-event",
+        "z": "b4c51043.d4017",
+        "name": "Master Bedroom Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestMaster Bedroom Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 540,
+        "y": 720,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "61a619c7.885768",
+        "type": "hb-event",
+        "z": "b4c51043.d4017",
+        "name": "Toy Room Hallway Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestToy Room Hallway Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 530,
+        "y": 760,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
+        ]
+    },
+    {
+        "id": "56b5878b.850f38",
+        "type": "hb-event",
+        "z": "b4c51043.d4017",
+        "name": "Toy Room Motion",
+        "Homebridge": "Homebridge",
+        "Manufacturer": "Nest",
+        "Service": "Motion Sensor",
+        "device": "HomebridgeCC:22:3D:E3:CE:30NestToy Room Motion00000085",
+        "conf": "d417815c.8097e",
+        "x": 560,
+        "y": 800,
+        "wires": [
+            [
+                "8c97ec84.a8933"
+            ]
         ]
     }
 ]
