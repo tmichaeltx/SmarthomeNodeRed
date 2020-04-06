@@ -91,9 +91,9 @@
         "info": ""
     },
     {
-        "id": "403a8bf4.d12414",
+        "id": "61e5dfe3.72c33",
         "type": "tab",
-        "label": "Kyle Garage ",
+        "label": "Kyle Garage",
         "disabled": false,
         "info": ""
     },
@@ -8361,9 +8361,9 @@
         "wires": []
     },
     {
-        "id": "8eb71b36.3e5e58",
+        "id": "764d9d47.200b04",
         "type": "hubitat device",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Garage Entry Door",
         "server": "e8d3373e.086d08",
         "deviceId": "65",
@@ -8373,14 +8373,14 @@
         "y": 140,
         "wires": [
             [
-                "f13943af.2dccb"
+                "56b005a5.a5ea7c"
             ]
         ]
     },
     {
-        "id": "2baa0ea4.0a2532",
+        "id": "a7b71960.96e8f8",
         "type": "hubitat device",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Garage Light Switch",
         "server": "e8d3373e.086d08",
         "deviceId": "67",
@@ -8390,14 +8390,14 @@
         "y": 80,
         "wires": [
             [
-                "1044db57.1b5845"
+                "a1ac3b7d.a31ce8"
             ]
         ]
     },
     {
-        "id": "1f742f75.b35c91",
+        "id": "54fa4f0a.ac4da",
         "type": "hubitat device",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Garage Motion Sensor",
         "server": "e8d3373e.086d08",
         "deviceId": "66",
@@ -8407,14 +8407,14 @@
         "y": 580,
         "wires": [
             [
-                "d33f35b2.893408"
+                "f229763b.ae95d8"
             ]
         ]
     },
     {
-        "id": "1a7c1e5e.29cfa2",
+        "id": "2709a3a9.620f3c",
         "type": "mytimeout",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "",
         "outtopic": "",
         "outsafe": "",
@@ -8431,15 +8431,16 @@
         "y": 280,
         "wires": [
             [
-                "3d8dcbea.910354"
+                "31ad411c.706afe"
             ],
             []
-        ]
+        ],
+        "info": "Currently set at 10 seconds with a 5 second warning. I would suggest changing to 600 seconds (10 minutes) with a 60 seconds (1 minute warning).\n\nYou might also want to rename the node, but I left it with the default name to indicate the required Pallette"
     },
     {
-        "id": "955d1721.14ebf8",
+        "id": "70ae1a07.4af084",
         "type": "hubitat command",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Garage Light Bulb On",
         "server": "e8d3373e.086d08",
         "deviceId": "68",
@@ -8452,9 +8453,9 @@
         ]
     },
     {
-        "id": "2e0c5f43.2c16b",
+        "id": "6fa04a70.a00fd4",
         "type": "hubitat command",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Garage Light Bulb Off",
         "server": "e8d3373e.086d08",
         "deviceId": "68",
@@ -8467,9 +8468,9 @@
         ]
     },
     {
-        "id": "1044db57.1b5845",
+        "id": "a1ac3b7d.a31ce8",
         "type": "switch",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "On or Off?",
         "property": "payload.value",
         "propertyType": "msg",
@@ -8492,17 +8493,17 @@
         "y": 80,
         "wires": [
             [
-                "1a55d249.203d1e"
+                "4e556501.6490dc"
             ],
             [
-                "6b0bcd2.37c8634"
+                "25a7b25d.5d359e"
             ]
         ]
     },
     {
-        "id": "1a55d249.203d1e",
+        "id": "4e556501.6490dc",
         "type": "change",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Set Payload to Cancel timer",
         "rules": [
             {
@@ -8522,15 +8523,15 @@
         "y": 74,
         "wires": [
             [
-                "955d1721.14ebf8",
-                "1a7c1e5e.29cfa2"
+                "70ae1a07.4af084",
+                "2709a3a9.620f3c"
             ]
         ]
     },
     {
-        "id": "d33f35b2.893408",
+        "id": "f229763b.ae95d8",
         "type": "switch",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Went Active or Inactive?",
         "property": "payload.value",
         "propertyType": "msg",
@@ -8553,15 +8554,15 @@
         "y": 580,
         "wires": [
             [
-                "1a7c1e5e.29cfa2"
+                "2709a3a9.620f3c"
             ],
             []
         ]
     },
     {
-        "id": "3d8dcbea.910354",
+        "id": "31ad411c.706afe",
         "type": "switch",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Off or Warning?",
         "property": "payload",
         "propertyType": "msg",
@@ -8584,17 +8585,17 @@
         "y": 273,
         "wires": [
             [
-                "2e0c5f43.2c16b"
+                "6fa04a70.a00fd4"
             ],
             [
-                "d86dda9b.460998"
+                "a6850d42.94cb6"
             ]
         ]
     },
     {
-        "id": "f86a022d.b8ac4",
+        "id": "a8ead6d7.341598",
         "type": "switch",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Opened or Closed?",
         "property": "payloadinput.value",
         "propertyType": "msg",
@@ -8617,16 +8618,16 @@
         "y": 440,
         "wires": [
             [
-                "1a7c1e5e.29cfa2",
-                "49abb643.6a78e8"
+                "2709a3a9.620f3c",
+                "3548fdb5.8d1f02"
             ],
             []
         ]
     },
     {
-        "id": "8ce5aa92.771d88",
+        "id": "ce3e5caf.24d17",
         "type": "comment",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Reset Timer",
         "info": "By sending a message to the timer when the motion sensor goes active, it resets the timer restarting the countdown.",
         "x": 570,
@@ -8634,9 +8635,9 @@
         "wires": []
     },
     {
-        "id": "85775be4.6c1b18",
+        "id": "ea067d19.bb81f",
         "type": "hubitat command",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Garage Light Bulb On",
         "server": "e8d3373e.086d08",
         "deviceId": "68",
@@ -8649,9 +8650,9 @@
         ]
     },
     {
-        "id": "1095f032.fd756",
+        "id": "ed9edb93.603128",
         "type": "delay",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "",
         "pauseType": "delay",
         "timeout": "200",
@@ -8667,14 +8668,14 @@
         "y": 360,
         "wires": [
             [
-                "85775be4.6c1b18"
+                "ea067d19.bb81f"
             ]
         ]
     },
     {
-        "id": "d86dda9b.460998",
+        "id": "a6850d42.94cb6",
         "type": "hubitat command",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Garage Light Bulb Off",
         "server": "e8d3373e.086d08",
         "deviceId": "68",
@@ -8684,14 +8685,14 @@
         "y": 360,
         "wires": [
             [
-                "1095f032.fd756"
+                "ed9edb93.603128"
             ]
         ]
     },
     {
-        "id": "7f64b36f.ba965c",
+        "id": "9ed2cfab.f3a6e",
         "type": "comment",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Start Timer",
         "info": "This starts the timer when the garage contact sensor is opened.",
         "x": 540,
@@ -8699,9 +8700,9 @@
         "wires": []
     },
     {
-        "id": "53e971ea.6cad9",
+        "id": "7ee7aa8d.e20124",
         "type": "comment",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Cancel Timer",
         "info": "This cancels the timer if the garage switch is turned on",
         "x": 730,
@@ -8709,9 +8710,9 @@
         "wires": []
     },
     {
-        "id": "c01579d9.714498",
+        "id": "fa29a034.3f408",
         "type": "comment",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Flash Light",
         "info": "By watching for the Warning output from the timer, this will flash the light for 200ms. Imagine if the timer is set to run for 10 minutes and the warning is set to 60 seconds, then this gives you a 1 minute warning that the lights will be automatically turning off.\n\n**Note:** It will only flash the light if the switch is off. If it is on, then it will ignore the request as the timer is not relevant.",
         "x": 880,
@@ -8719,9 +8720,9 @@
         "wires": []
     },
     {
-        "id": "f13943af.2dccb",
+        "id": "56b005a5.a5ea7c",
         "type": "change",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Store Payload then set Payload to switch",
         "rules": [
             {
@@ -8748,14 +8749,14 @@
         "y": 200,
         "wires": [
             [
-                "ba2f26.8f9720d8"
+                "9e5794b.ef2f868"
             ]
         ]
     },
     {
-        "id": "ba2f26.8f9720d8",
+        "id": "9e5794b.ef2f868",
         "type": "hubitat device",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Garage Light Switch",
         "server": "e8d3373e.086d08",
         "deviceId": "67",
@@ -8765,15 +8766,15 @@
         "y": 240,
         "wires": [
             [
-                "6a3f6938.0ebb88"
+                "518f2a1e.636384"
             ]
         ],
         "info": "This Node is used to pull the status of the light switch. The send events is turned off so that it won't initiate flows on its own."
     },
     {
-        "id": "6a3f6938.0ebb88",
+        "id": "518f2a1e.636384",
         "type": "switch",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Switch On or Off",
         "property": "payload.value",
         "propertyType": "msg",
@@ -8797,14 +8798,14 @@
         "wires": [
             [],
             [
-                "8cc1b039.44c9f"
+                "6c8f746a.5d86bc"
             ]
         ]
     },
     {
-        "id": "8cc1b039.44c9f",
+        "id": "6c8f746a.5d86bc",
         "type": "change",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Set Payload to switch",
         "rules": [
             {
@@ -8824,32 +8825,32 @@
         "y": 340,
         "wires": [
             [
-                "a1ce7408.b3a768"
+                "c1d6a7f9.ebf778"
             ]
         ]
     },
     {
-        "id": "a1ce7408.b3a768",
+        "id": "c1d6a7f9.ebf778",
         "type": "hubitat device",
-        "z": "403a8bf4.d12414",
-        "name": "Garage Light Switch",
+        "z": "61e5dfe3.72c33",
+        "name": "Garage Light Bulb",
         "server": "e8d3373e.086d08",
         "deviceId": "68",
         "attribute": "switch",
         "sendEvent": false,
-        "x": 140,
+        "x": 130,
         "y": 380,
         "wires": [
             [
-                "531744fc.de157c"
+                "ca307ecf.09c7"
             ]
         ],
         "info": "This Node is used to pull the status of the light bulb. The send events is turned off so that it won't initiate flows on its own."
     },
     {
-        "id": "531744fc.de157c",
+        "id": "ca307ecf.09c7",
         "type": "switch",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Bulb On or Off",
         "property": "payload.value",
         "propertyType": "msg",
@@ -8873,64 +8874,74 @@
         "wires": [
             [],
             [
-                "f86a022d.b8ac4"
+                "a8ead6d7.341598"
             ]
         ]
     },
     {
-        "id": "6b0bcd2.37c8634",
+        "id": "25a7b25d.5d359e",
         "type": "link out",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Turn Off",
         "links": [
-            "f5cb10bf.baea7"
+            "ca8e0c4a.68e02"
         ],
         "x": 455,
         "y": 120,
         "wires": []
     },
     {
-        "id": "f5cb10bf.baea7",
+        "id": "ca8e0c4a.68e02",
         "type": "link in",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Turn Off",
         "links": [
-            "6b0bcd2.37c8634"
+            "25a7b25d.5d359e"
         ],
         "x": 1035,
         "y": 220,
         "wires": [
             [
-                "2e0c5f43.2c16b"
+                "6fa04a70.a00fd4"
             ]
         ]
     },
     {
-        "id": "49abb643.6a78e8",
+        "id": "3548fdb5.8d1f02",
         "type": "link out",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Turn On",
         "links": [
-            "305aaf30.b34fc"
+            "bd7ad2d9.8ae16"
         ],
         "x": 435,
         "y": 380,
         "wires": []
     },
     {
-        "id": "305aaf30.b34fc",
+        "id": "bd7ad2d9.8ae16",
         "type": "link in",
-        "z": "403a8bf4.d12414",
+        "z": "61e5dfe3.72c33",
         "name": "Turn On",
         "links": [
-            "49abb643.6a78e8"
+            "3548fdb5.8d1f02"
         ],
         "x": 878,
         "y": 121,
         "wires": [
             [
-                "955d1721.14ebf8"
+                "70ae1a07.4af084"
             ]
         ]
+    },
+    {
+        "id": "763f0696.7f56d8",
+        "type": "comment",
+        "z": "61e5dfe3.72c33",
+        "name": "Required Pallettes: node-red-contrib-mytimeout, node-red-contrib-hubitat",
+        "info": "node-red-contrib-mytimeout\nnode-red-contrib-hubitat",
+        "x": 300,
+        "y": 40,
+        "wires": []
     }
 ]
