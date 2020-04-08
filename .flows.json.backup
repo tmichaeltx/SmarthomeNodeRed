@@ -3,63 +3,63 @@
         "id": "19f09f55.ffe791",
         "type": "tab",
         "label": "Simple Hubitat Example",
-        "disabled": false,
+        "disabled": true,
         "info": ""
     },
     {
         "id": "ba419a6a.959718",
         "type": "tab",
         "label": "Echo Options",
-        "disabled": false,
+        "disabled": true,
         "info": ""
     },
     {
         "id": "6d8b559d.06774c",
         "type": "tab",
         "label": "Harmony",
-        "disabled": false,
+        "disabled": true,
         "info": ""
     },
     {
         "id": "fae21b1.b95d4e8",
         "type": "tab",
         "label": "Upstairs Flash",
-        "disabled": false,
+        "disabled": true,
         "info": ""
     },
     {
         "id": "230e9a07.1833b6",
         "type": "tab",
         "label": "MQTT and Time",
-        "disabled": false,
+        "disabled": true,
         "info": ""
     },
     {
         "id": "e085806.699538",
         "type": "tab",
         "label": "Hubitat Timing Testing",
-        "disabled": false,
+        "disabled": true,
         "info": ""
     },
     {
         "id": "6b70908d.81178",
         "type": "tab",
         "label": "MQTT Basic",
-        "disabled": false,
+        "disabled": true,
         "info": ""
     },
     {
         "id": "fe71a936.143488",
         "type": "tab",
         "label": "Example of Homebridge and MQTT",
-        "disabled": false,
+        "disabled": true,
         "info": ""
     },
     {
         "id": "b4c51043.d4017",
         "type": "tab",
         "label": "HB example",
-        "disabled": false,
+        "disabled": true,
         "info": ""
     },
     {
@@ -72,8 +72,8 @@
     {
         "id": "6ed3df28.3d9b9",
         "type": "tab",
-        "label": "Download Last Hubitat Backup",
-        "disabled": false,
+        "label": "Download Last Hubitat Backup doesn't support login security",
+        "disabled": true,
         "info": ""
     },
     {
@@ -86,7 +86,7 @@
     {
         "id": "571b4d9b.71b764",
         "type": "tab",
-        "label": "Flow 3",
+        "label": "Backup via Bash Script",
         "disabled": false,
         "info": ""
     },
@@ -94,6 +94,34 @@
         "id": "61e5dfe3.72c33",
         "type": "tab",
         "label": "Kyle Garage",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "db8ba9f2.b33828",
+        "type": "tab",
+        "label": "Kyle Garage Dumb Bulb",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "6dbd0588.58f98c",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "bd07e321.01fe5",
+        "type": "tab",
+        "label": "Flow 6",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cb2ae0ad.ac7b9",
+        "type": "tab",
+        "label": "Influx Samples",
         "disabled": false,
         "info": ""
     },
@@ -525,7 +553,7 @@
         "z": "",
         "name": "Living Room Hub",
         "ip": "192.168.86.102",
-        "debug": true
+        "debug": false
     },
     {
         "id": "a5bf81ee.27852",
@@ -572,6 +600,97 @@
         "appId": "33",
         "nodeRedServer": "http://centralservices:1880",
         "webhookPath": "/hubitat/webhook_dev"
+    },
+    {
+        "id": "ce20fb1f.4f74d8",
+        "type": "influxdb",
+        "z": "",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "mytestdb",
+        "name": "",
+        "usetls": false,
+        "tls": ""
+    },
+    {
+        "id": "d1a2dc43.d9ca8",
+        "type": "influxdb",
+        "z": "cb2ae0ad.ac7b9",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "database": "aTimeSeries",
+        "name": "aTimeSeries"
+    },
+    {
+        "id": "33fba9f4.354d26",
+        "type": "influxdb",
+        "z": "cb2ae0ad.ac7b9",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "database": "aTimeSeries",
+        "name": "aTimeSeries"
+    },
+    {
+        "id": "eb774de2.880bf",
+        "type": "influxdb",
+        "z": "cb2ae0ad.ac7b9",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "database": "aTimeSeries",
+        "name": "aTimeSeries"
+    },
+    {
+        "id": "6d629066.04454",
+        "type": "influxdb",
+        "z": "cb2ae0ad.ac7b9",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "database": "aTimeSeries",
+        "name": "aTimeSeries"
+    },
+    {
+        "id": "c8923cbf.4c824",
+        "type": "influxdb",
+        "z": "cb2ae0ad.ac7b9",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "database": "aTimeSeries",
+        "name": "aTimeSeries"
+    },
+    {
+        "id": "61925eab.c1712",
+        "type": "influxdb",
+        "z": "cb2ae0ad.ac7b9",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "database": "aTimeSeries",
+        "name": "aTimeSeries"
+    },
+    {
+        "id": "da5cd6a0.d453f8",
+        "type": "influxdb",
+        "z": "",
+        "hostname": "localhost",
+        "port": "8086",
+        "protocol": "https",
+        "database": "new_db",
+        "name": "",
+        "usetls": true,
+        "tls": "1babd529.cb21ab"
+    },
+    {
+        "id": "1babd529.cb21ab",
+        "type": "tls-config",
+        "z": "",
+        "name": "local-tls",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "verifyservercert": false
     },
     {
         "id": "f2650446.2a56d8",
@@ -7991,8 +8110,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 560,
-        "y": 60,
+        "x": 810,
+        "y": 120,
         "wires": []
     },
     {
@@ -8404,7 +8523,7 @@
         "attribute": "motion",
         "sendEvent": true,
         "x": 140,
-        "y": 580,
+        "y": 500,
         "wires": [
             [
                 "f229763b.ae95d8"
@@ -8551,7 +8670,7 @@
         "repair": false,
         "outputs": 2,
         "x": 390,
-        "y": 580,
+        "y": 500,
         "wires": [
             [
                 "2709a3a9.620f3c"
@@ -8630,8 +8749,8 @@
         "z": "61e5dfe3.72c33",
         "name": "Reset Timer",
         "info": "By sending a message to the timer when the motion sensor goes active, it resets the timer restarting the countdown.",
-        "x": 570,
-        "y": 520,
+        "x": 630,
+        "y": 440,
         "wires": []
     },
     {
@@ -8942,6 +9061,1371 @@
         "info": "node-red-contrib-mytimeout\nnode-red-contrib-hubitat",
         "x": 300,
         "y": 40,
+        "wires": []
+    },
+    {
+        "id": "22479cf9.7a4dd4",
+        "type": "hubitat device",
+        "z": "db8ba9f2.b33828",
+        "name": "Garage Entry Door",
+        "server": "e8d3373e.086d08",
+        "deviceId": "65",
+        "attribute": "contact",
+        "sendEvent": true,
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "c5ea069.6526af8"
+            ]
+        ]
+    },
+    {
+        "id": "fae7e806.5c5bd8",
+        "type": "hubitat device",
+        "z": "db8ba9f2.b33828",
+        "name": "Doubletap Up",
+        "server": "e8d3373e.086d08",
+        "deviceId": "69",
+        "attribute": "pushed",
+        "sendEvent": true,
+        "x": 100,
+        "y": 220,
+        "wires": [
+            [
+                "d7dc27f9.1c1388"
+            ]
+        ]
+    },
+    {
+        "id": "b0ec6ad0.e7f818",
+        "type": "hubitat device",
+        "z": "db8ba9f2.b33828",
+        "name": "Garage Motion Sensor",
+        "server": "e8d3373e.086d08",
+        "deviceId": "66",
+        "attribute": "motion",
+        "sendEvent": true,
+        "x": 120,
+        "y": 320,
+        "wires": [
+            [
+                "8ac8c90c.6632b8"
+            ]
+        ]
+    },
+    {
+        "id": "2d7286cf.c4cfda",
+        "type": "mytimeout",
+        "z": "db8ba9f2.b33828",
+        "name": "",
+        "outtopic": "",
+        "outsafe": "",
+        "outwarning": "Warning",
+        "outunsafe": "off",
+        "warning": "5",
+        "timer": "10",
+        "debug": false,
+        "ndebug": true,
+        "ignoreCase": false,
+        "repeat": false,
+        "again": false,
+        "x": 750,
+        "y": 220,
+        "wires": [
+            [
+                "9a6b30cd.a8ce5"
+            ],
+            []
+        ],
+        "info": "Currently set at 10 seconds with a 5 second warning. I would suggest changing to 600 seconds (10 minutes) with a 60 seconds (1 minute warning).\n\nYou might also want to rename the node, but I left it with the default name to indicate the required Pallette"
+    },
+    {
+        "id": "683697eb.e833c8",
+        "type": "hubitat command",
+        "z": "db8ba9f2.b33828",
+        "name": "Garage Light Switch On",
+        "server": "e8d3373e.086d08",
+        "deviceId": "67",
+        "command": "on",
+        "commandArgs": "",
+        "x": 530,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4393520e.6b2fcc",
+        "type": "hubitat command",
+        "z": "db8ba9f2.b33828",
+        "name": "Garage Light Switch Off",
+        "server": "e8d3373e.086d08",
+        "deviceId": "67",
+        "command": "off",
+        "commandArgs": "",
+        "x": 990,
+        "y": 293,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d7dc27f9.1c1388",
+        "type": "switch",
+        "z": "db8ba9f2.b33828",
+        "name": "Pushed",
+        "property": "payload.name",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "pushed",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 260,
+        "y": 220,
+        "wires": [
+            [
+                "d8ec9499.6e6a58"
+            ]
+        ]
+    },
+    {
+        "id": "d8ec9499.6e6a58",
+        "type": "change",
+        "z": "db8ba9f2.b33828",
+        "name": "Set Payload to Cancel timer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "cancel",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 160,
+        "y": 280,
+        "wires": [
+            [
+                "2d7286cf.c4cfda"
+            ]
+        ]
+    },
+    {
+        "id": "8ac8c90c.6632b8",
+        "type": "switch",
+        "z": "db8ba9f2.b33828",
+        "name": "Went Active or Inactive?",
+        "property": "payload.value",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "active",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "inactive",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 350,
+        "y": 320,
+        "wires": [
+            [
+                "2d7286cf.c4cfda"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9a6b30cd.a8ce5",
+        "type": "switch",
+        "z": "db8ba9f2.b33828",
+        "name": "Off or Warning?",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Warning",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 760,
+        "y": 300,
+        "wires": [
+            [
+                "4393520e.6b2fcc"
+            ],
+            [
+                "1eee76c9.d32149"
+            ]
+        ]
+    },
+    {
+        "id": "707ea5ef.424cdc",
+        "type": "switch",
+        "z": "db8ba9f2.b33828",
+        "name": "Opened or Closed?",
+        "property": "payloadinput.value",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "open",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "closed",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 166,
+        "wires": [
+            [
+                "2d7286cf.c4cfda",
+                "683697eb.e833c8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8f1040ca.7c31b",
+        "type": "comment",
+        "z": "db8ba9f2.b33828",
+        "name": "Reset Timer",
+        "info": "By sending a message to the timer when the motion sensor goes active, it resets the timer restarting the countdown.",
+        "x": 570,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "338cbb9a.90b594",
+        "type": "hubitat command",
+        "z": "db8ba9f2.b33828",
+        "name": "Garage Light Switch On",
+        "server": "e8d3373e.086d08",
+        "deviceId": "67",
+        "command": "on",
+        "commandArgs": "",
+        "x": 810,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "491bf7eb.c589f8",
+        "type": "delay",
+        "z": "db8ba9f2.b33828",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 610,
+        "y": 380,
+        "wires": [
+            [
+                "338cbb9a.90b594"
+            ]
+        ]
+    },
+    {
+        "id": "1eee76c9.d32149",
+        "type": "hubitat command",
+        "z": "db8ba9f2.b33828",
+        "name": "Garage Light Switch Off",
+        "server": "e8d3373e.086d08",
+        "deviceId": "67",
+        "command": "off",
+        "commandArgs": "",
+        "x": 410,
+        "y": 380,
+        "wires": [
+            [
+                "491bf7eb.c589f8"
+            ]
+        ]
+    },
+    {
+        "id": "aa3c6bb.a234f98",
+        "type": "comment",
+        "z": "db8ba9f2.b33828",
+        "name": "Start Timer",
+        "info": "This starts the timer when the garage contact sensor is opened.",
+        "x": 520,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "526f7c8c.f31e34",
+        "type": "comment",
+        "z": "db8ba9f2.b33828",
+        "name": "Cancel Timer",
+        "info": "This cancels the timer if the garage switch is turned on",
+        "x": 490,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "6a090266.211f3c",
+        "type": "comment",
+        "z": "db8ba9f2.b33828",
+        "name": "Flash Light",
+        "info": "By watching for the Warning output from the timer, this will flash the light for 200ms. Imagine if the timer is set to run for 10 minutes and the warning is set to 60 seconds, then this gives you a 1 minute warning that the lights will be automatically turning off.\n\n**Note:** It will only flash the light if the switch is off. If it is on, then it will ignore the request as the timer is not relevant.",
+        "x": 760,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "c5ea069.6526af8",
+        "type": "change",
+        "z": "db8ba9f2.b33828",
+        "name": "Store Payload then set Payload to switch",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payloadinput",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "switch",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 80,
+        "wires": [
+            [
+                "122fdae9.de67b5"
+            ]
+        ]
+    },
+    {
+        "id": "122fdae9.de67b5",
+        "type": "hubitat device",
+        "z": "db8ba9f2.b33828",
+        "name": "Garage Light Switch",
+        "server": "e8d3373e.086d08",
+        "deviceId": "67",
+        "attribute": "switch",
+        "sendEvent": false,
+        "x": 660,
+        "y": 80,
+        "wires": [
+            [
+                "4a4da8a9.2f6c78"
+            ]
+        ],
+        "info": "This Node is used to pull the status of the light switch. The send events is turned off so that it won't initiate flows on its own."
+    },
+    {
+        "id": "4a4da8a9.2f6c78",
+        "type": "switch",
+        "z": "db8ba9f2.b33828",
+        "name": "Switch On or Off",
+        "property": "payload.value",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "on",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [],
+            [
+                "707ea5ef.424cdc"
+            ]
+        ]
+    },
+    {
+        "id": "450ba373.b2226c",
+        "type": "comment",
+        "z": "db8ba9f2.b33828",
+        "name": "Required Pallettes: node-red-contrib-mytimeout, node-red-contrib-hubitat",
+        "info": "node-red-contrib-mytimeout\nnode-red-contrib-hubitat",
+        "x": 300,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "f4a55bce.dbc4a8",
+        "type": "hubitat device",
+        "z": "6dbd0588.58f98c",
+        "name": "Garage Light Switch",
+        "server": "e8d3373e.086d08",
+        "deviceId": "67",
+        "attribute": "switch",
+        "sendEvent": true,
+        "x": 340,
+        "y": 100,
+        "wires": [
+            [
+                "1a3cd3ec.4cb13c"
+            ]
+        ]
+    },
+    {
+        "id": "7a6229c7.7a1448",
+        "type": "hubitat command",
+        "z": "6dbd0588.58f98c",
+        "name": "Garage Light Switch",
+        "server": "e8d3373e.086d08",
+        "deviceId": "67",
+        "command": "on",
+        "commandArgs": "",
+        "x": 780,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "12bca339.e46fed",
+        "type": "hubitat device",
+        "z": "6dbd0588.58f98c",
+        "name": "Garage Entry Door",
+        "server": "e8d3373e.086d08",
+        "deviceId": "65",
+        "attribute": "contact",
+        "sendEvent": true,
+        "x": 230,
+        "y": 260,
+        "wires": [
+            [
+                "7a6229c7.7a1448"
+            ]
+        ]
+    },
+    {
+        "id": "1a3cd3ec.4cb13c",
+        "type": "debug",
+        "z": "6dbd0588.58f98c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 660,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "38b47f05.288b9",
+        "type": "debug",
+        "z": "bd07e321.01fe5",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 630,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "c4b656e8.dd7ea8",
+        "type": "hubitat command",
+        "z": "bd07e321.01fe5",
+        "name": "Master ON",
+        "server": "c114fe92.abb34",
+        "deviceId": "33",
+        "command": "on",
+        "commandArgs": "",
+        "x": 570,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a61f242a.970498",
+        "type": "hubitat command",
+        "z": "bd07e321.01fe5",
+        "name": "Master Off",
+        "server": "c114fe92.abb34",
+        "deviceId": "33",
+        "command": "off",
+        "commandArgs": "",
+        "x": 570,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5cf8573d.0127b8",
+        "type": "inject",
+        "z": "bd07e321.01fe5",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 220,
+        "y": 440,
+        "wires": [
+            [
+                "c4b656e8.dd7ea8",
+                "81851f3e.e0119"
+            ]
+        ]
+    },
+    {
+        "id": "eb500bfe.a51f58",
+        "type": "inject",
+        "z": "bd07e321.01fe5",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 220,
+        "y": 520,
+        "wires": [
+            [
+                "a61f242a.970498",
+                "76c32e0.9ba9ad4"
+            ]
+        ]
+    },
+    {
+        "id": "a52411c7.2a282",
+        "type": "hubitat device",
+        "z": "bd07e321.01fe5",
+        "name": "Master Light Overhead switch",
+        "server": "c114fe92.abb34",
+        "deviceId": "33",
+        "attribute": "switch",
+        "sendEvent": true,
+        "x": 270,
+        "y": 280,
+        "wires": [
+            [
+                "38b47f05.288b9"
+            ]
+        ]
+    },
+    {
+        "id": "81851f3e.e0119",
+        "type": "hubitat command",
+        "z": "bd07e321.01fe5",
+        "name": "Mike Credenza Light",
+        "server": "c114fe92.abb34",
+        "deviceId": "388",
+        "command": "on",
+        "commandArgs": "",
+        "x": 600,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "76c32e0.9ba9ad4",
+        "type": "hubitat command",
+        "z": "bd07e321.01fe5",
+        "name": "Mike Credenza Light",
+        "server": "c114fe92.abb34",
+        "deviceId": "388",
+        "command": "off",
+        "commandArgs": "",
+        "x": 600,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fc82206.9691dc",
+        "type": "hubitat device",
+        "z": "bd07e321.01fe5",
+        "name": "Mike Credenza Light",
+        "server": "c114fe92.abb34",
+        "deviceId": "388",
+        "attribute": "switch",
+        "sendEvent": true,
+        "x": 220,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "57db688d.cd81e8",
+        "type": "hubitat device",
+        "z": "bd07e321.01fe5",
+        "name": "Garage Light Bulb",
+        "server": "e8d3373e.086d08",
+        "deviceId": "68",
+        "attribute": "switch",
+        "sendEvent": true,
+        "x": 970,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d3a9329.7f34ac",
+        "type": "hubitat device",
+        "z": "bd07e321.01fe5",
+        "name": "Mike Credenza Light",
+        "server": "c114fe92.abb34",
+        "deviceId": "388",
+        "attribute": "switch",
+        "sendEvent": true,
+        "x": 980,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cff4ef80.e7216",
+        "type": "hubitat device",
+        "z": "bd07e321.01fe5",
+        "name": "Master Light Overhead Pushed",
+        "server": "c114fe92.abb34",
+        "deviceId": "33",
+        "attribute": "pushed",
+        "sendEvent": true,
+        "x": 270,
+        "y": 220,
+        "wires": [
+            [
+                "38b47f05.288b9"
+            ]
+        ]
+    },
+    {
+        "id": "9c98e1aa.658d2",
+        "type": "hubitat device",
+        "z": "bd07e321.01fe5",
+        "name": "Master Light Overhead switch Double Tapped",
+        "server": "c114fe92.abb34",
+        "deviceId": "33",
+        "attribute": "doubleTapped",
+        "sendEvent": true,
+        "x": 210,
+        "y": 60,
+        "wires": [
+            [
+                "38b47f05.288b9"
+            ]
+        ]
+    },
+    {
+        "id": "75d7e670.f422a8",
+        "type": "hubitat device",
+        "z": "bd07e321.01fe5",
+        "name": "Master Light Overhead switch number of buttons",
+        "server": "c114fe92.abb34",
+        "deviceId": "33",
+        "attribute": "numberOfButtons",
+        "sendEvent": true,
+        "x": 220,
+        "y": 120,
+        "wires": [
+            [
+                "38b47f05.288b9"
+            ]
+        ]
+    },
+    {
+        "id": "4c012e9d.fd18c",
+        "type": "mqtt in",
+        "z": "bd07e321.01fe5",
+        "name": "",
+        "topic": "homie/main-hub/master-light-overhead/button/button-1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "a5bf81ee.27852",
+        "x": 700,
+        "y": 40,
+        "wires": [
+            [
+                "38b47f05.288b9"
+            ]
+        ]
+    },
+    {
+        "id": "cfb480bf.31d76",
+        "type": "mqtt in",
+        "z": "bd07e321.01fe5",
+        "name": "",
+        "topic": "homie/main-hub/master-light-overhead/button/button-2",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "a5bf81ee.27852",
+        "x": 680,
+        "y": 80,
+        "wires": [
+            [
+                "38b47f05.288b9"
+            ]
+        ]
+    },
+    {
+        "id": "dea0bcdc.c0a85",
+        "type": "hubitat device",
+        "z": "bd07e321.01fe5",
+        "name": "Master Light Overhead Undefined",
+        "server": "c114fe92.abb34",
+        "deviceId": "33",
+        "attribute": "",
+        "sendEvent": true,
+        "x": 280,
+        "y": 340,
+        "wires": [
+            [
+                "38b47f05.288b9"
+            ]
+        ]
+    },
+    {
+        "id": "5357a2dc.d7f63c",
+        "type": "influxdb in",
+        "z": "cb2ae0ad.ac7b9",
+        "influxdb": "ce20fb1f.4f74d8",
+        "name": "time query",
+        "query": "select * from test;",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 270,
+        "y": 40,
+        "wires": [
+            [
+                "d195deb4.b623"
+            ]
+        ]
+    },
+    {
+        "id": "4cd2a79d.025e28",
+        "type": "inject",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 119,
+        "y": 40,
+        "wires": [
+            [
+                "5357a2dc.d7f63c"
+            ]
+        ]
+    },
+    {
+        "id": "d195deb4.b623",
+        "type": "debug",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 452,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "6fbcab63.bd4944",
+        "type": "inject",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 100,
+        "y": 120,
+        "wires": [
+            [
+                "f2b5f55d.f2fde8"
+            ]
+        ]
+    },
+    {
+        "id": "d1a4d499.89e358",
+        "type": "influxdb in",
+        "z": "cb2ae0ad.ac7b9",
+        "influxdb": "ce20fb1f.4f74d8",
+        "name": "time query",
+        "query": "",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 423,
+        "y": 120,
+        "wires": [
+            [
+                "aa722913.1bc0a8"
+            ]
+        ]
+    },
+    {
+        "id": "aa722913.1bc0a8",
+        "type": "debug",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 581,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "544b5aa2.4322c4",
+        "type": "influxdb out",
+        "z": "cb2ae0ad.ac7b9",
+        "influxdb": "ce20fb1f.4f74d8",
+        "name": "",
+        "measurement": "test",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 480,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "3146671d.c31938",
+        "type": "function",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "single value",
+        "func": "msg.payload = Math.random()*10;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 267,
+        "y": 268,
+        "wires": [
+            [
+                "544b5aa2.4322c4"
+            ]
+        ]
+    },
+    {
+        "id": "19df56fa.8ad439",
+        "type": "inject",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 123,
+        "y": 243,
+        "wires": [
+            [
+                "3146671d.c31938"
+            ]
+        ]
+    },
+    {
+        "id": "adf88d63.9208b",
+        "type": "inject",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 120,
+        "y": 360,
+        "wires": [
+            [
+                "fb9279f.36fcc88"
+            ]
+        ]
+    },
+    {
+        "id": "fb9279f.36fcc88",
+        "type": "function",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "Fields",
+        "func": "msg.payload = {\n    numValue: 123.0,\n    strValue: \"message\",\n    randomValue: Math.random()*10\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 268,
+        "y": 360,
+        "wires": [
+            [
+                "d859b2f4.5838a"
+            ]
+        ]
+    },
+    {
+        "id": "d859b2f4.5838a",
+        "type": "influxdb out",
+        "z": "cb2ae0ad.ac7b9",
+        "influxdb": "ce20fb1f.4f74d8",
+        "name": "",
+        "measurement": "test",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 468,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "83f02eb5.69cc9",
+        "type": "inject",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 120,
+        "y": 440,
+        "wires": [
+            [
+                "3e70c0ea.e77e2"
+            ]
+        ]
+    },
+    {
+        "id": "3e70c0ea.e77e2",
+        "type": "function",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "Fields and Tags",
+        "func": "msg.payload = [{\n    numValue: 12,\n    randomValue: Math.random()*10,\n    strValue: \"message2\"\n},\n{\n    tag1:\"sensor1\",\n    tag2:\"device2\"\n}];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 291,
+        "y": 440,
+        "wires": [
+            [
+                "5206a5df.ba23ec"
+            ]
+        ]
+    },
+    {
+        "id": "5206a5df.ba23ec",
+        "type": "influxdb out",
+        "z": "cb2ae0ad.ac7b9",
+        "influxdb": "ce20fb1f.4f74d8",
+        "name": "",
+        "measurement": "test",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 509,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "71576704.4b9228",
+        "type": "function",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "multiple readings",
+        "func": "msg.payload = [\n    [{\n        numValue: 10,\n        randomValue: Math.random()*10,\n        strValue: \"message1\",\n        time: new Date(\"2015-12-28T19:41:13Z\").getTime()\n    },\n    {\n        tag1:\"sensor1\",\n        tag2:\"device2\"\n    }],\n    [{\n        numValue: 20,\n        randomValue: Math.random()*10,\n        strValue: \"message2\",\n        time: new Date(\"2015-12-28T19:41:14Z\").getTime()\n    },\n    {\n        tag1:\"sensor1\",\n        tag2:\"device2\"\n    }]\n];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 520,
+        "wires": [
+            [
+                "cf5a24f1.56b0e8"
+            ]
+        ]
+    },
+    {
+        "id": "c69e1dac.efbad",
+        "type": "inject",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 116,
+        "y": 520,
+        "wires": [
+            [
+                "71576704.4b9228"
+            ]
+        ]
+    },
+    {
+        "id": "cf5a24f1.56b0e8",
+        "type": "influxdb out",
+        "z": "cb2ae0ad.ac7b9",
+        "influxdb": "ce20fb1f.4f74d8",
+        "name": "",
+        "measurement": "test",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 521,
+        "y": 519,
+        "wires": []
+    },
+    {
+        "id": "dceefa3a.564398",
+        "type": "function",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "multiple measurement points",
+        "func": "msg.payload = [\n    {\n        measurement: \"weather_sensor\",\n        fields: {\n            temp: 5.5,\n            light: 678,\n            humidity: 51\n        },\n        tags:{\n            location:\"garden\"\n        },\n        timestamp: new Date()\n    },\n    {\n        measurement: \"alarm_sensor\",\n        fields: {\n            proximity: 999,\n            temp: 19.5\n        },\n        tags:{\n            location:\"home\"\n        },\n        timestamp: new Date()\n    }\n];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 400,
+        "y": 680,
+        "wires": [
+            [
+                "c5947626.4bc118"
+            ]
+        ]
+    },
+    {
+        "id": "a724d9b.638fe28",
+        "type": "inject",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 140,
+        "y": 620,
+        "wires": [
+            [
+                "dceefa3a.564398"
+            ]
+        ]
+    },
+    {
+        "id": "c5947626.4bc118",
+        "type": "influxdb batch",
+        "z": "cb2ae0ad.ac7b9",
+        "influxdb": "ce20fb1f.4f74d8",
+        "precision": "",
+        "retentionPolicy": "",
+        "name": "",
+        "x": 680,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f2b5f55d.f2fde8",
+        "type": "function",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "simple query",
+        "func": "msg.query=\"select * from test;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 260,
+        "y": 120,
+        "wires": [
+            [
+                "d1a4d499.89e358"
+            ]
+        ]
+    },
+    {
+        "id": "dbe79a1.61c1868",
+        "type": "inject",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 120,
+        "y": 740,
+        "wires": [
+            [
+                "2623258b.954fda"
+            ]
+        ]
+    },
+    {
+        "id": "ad6b5c7c.1b275",
+        "type": "influxdb in",
+        "z": "cb2ae0ad.ac7b9",
+        "influxdb": "ce20fb1f.4f74d8",
+        "name": "time query",
+        "query": "",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 443,
+        "y": 740,
+        "wires": [
+            [
+                "4e15b1de.3372d"
+            ]
+        ]
+    },
+    {
+        "id": "4e15b1de.3372d",
+        "type": "debug",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 601,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "2623258b.954fda",
+        "type": "function",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "simple query",
+        "func": "msg.query=\"select * from weather_sensor;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 280,
+        "y": 740,
+        "wires": [
+            [
+                "ad6b5c7c.1b275"
+            ]
+        ]
+    },
+    {
+        "id": "d7a7fe5d.3c56",
+        "type": "inject",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 120,
+        "y": 780,
+        "wires": [
+            [
+                "b672e9ed.e1c698"
+            ]
+        ]
+    },
+    {
+        "id": "26143841.381d18",
+        "type": "influxdb in",
+        "z": "cb2ae0ad.ac7b9",
+        "influxdb": "ce20fb1f.4f74d8",
+        "name": "time query",
+        "query": "",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 443,
+        "y": 780,
+        "wires": [
+            [
+                "66aaed2e.cbfcd4"
+            ]
+        ]
+    },
+    {
+        "id": "66aaed2e.cbfcd4",
+        "type": "debug",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 601,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "b672e9ed.e1c698",
+        "type": "function",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "simple query",
+        "func": "msg.query=\"select * from alarm_sensor;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 280,
+        "y": 780,
+        "wires": [
+            [
+                "26143841.381d18"
+            ]
+        ]
+    },
+    {
+        "id": "91d341b5.59c31",
+        "type": "inject",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 120,
+        "y": 840,
+        "wires": [
+            [
+                "f63466d.704c498"
+            ]
+        ]
+    },
+    {
+        "id": "f532b46d.acd9f8",
+        "type": "influxdb in",
+        "z": "cb2ae0ad.ac7b9",
+        "influxdb": "ce20fb1f.4f74d8",
+        "name": "time query",
+        "query": "",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 443,
+        "y": 840,
+        "wires": [
+            [
+                "cc6e3951.538f48"
+            ]
+        ]
+    },
+    {
+        "id": "cc6e3951.538f48",
+        "type": "debug",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 601,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "f63466d.704c498",
+        "type": "function",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "simple query",
+        "func": "msg.query=\"select * from notthere;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 280,
+        "y": 840,
+        "wires": [
+            [
+                "f532b46d.acd9f8"
+            ]
+        ]
+    },
+    {
+        "id": "9637afb5.46796",
+        "type": "catch",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 360,
+        "y": 960,
+        "wires": [
+            [
+                "77b97c67.9fd274"
+            ]
+        ]
+    },
+    {
+        "id": "77b97c67.9fd274",
+        "type": "debug",
+        "z": "cb2ae0ad.ac7b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 600,
+        "y": 940,
         "wires": []
     }
 ]
