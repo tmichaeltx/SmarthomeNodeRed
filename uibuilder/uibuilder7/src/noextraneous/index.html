@@ -1,0 +1,128 @@
+<!doctype html>
+<!-- Note that adding an appcache really speeds things up after the first load
+    You need to amend the appcache file to meet your needs.
+    Don't forget to change the appcache file if you update ANY
+    of the files in it otherwise the old versions will ALWAYS be used.
+<html lang="en" manifest="./uibuilder.appcache">
+-->
+<html lang="en">
+<!--
+    This started from the default template html for uibuilder that was then stripped down to only the inclusions
+    of VueJS & bootstrap-vue and the connection from/to the Node-RED server.
+    Note there will be 2 of these, one for when the file is in the root folder for uibuilder
+    and 1 for when it is in a sub folder.
+
+    Noteworthy is that both the html and the js files must be altered in this way. The version not being used is commented out.
+-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>Simplified Node-RED UI Builder-based Page</title>
+    <meta name="description" content="Simplified Node-RED UI Builder-based - VueJS + bootstrap-vue version">
+<!-- root folder version -->
+<!--<link rel="icon" href="./images/node-blue.ico"> -->
+<!-- sub folder version -->
+    <link rel="icon" href="../images/node-blue.ico">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#3f51b5">
+
+    <!-- Used if adding to homescreen for Chrome on Android. Fallback for manifest.json -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Node-RED UI Builder">
+
+    <!-- Used if adding to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Node-RED UI Builder">
+
+<!-- root folder version -->
+<!--<link type="text/css" rel="stylesheet" href="../uibuilder/vendor/bootstrap/dist/css/bootstrap.min.css" /> -->
+<!--<link type="text/css" rel="stylesheet" href="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.css" /> -->
+<!-- sub folder version -->
+    <link type="text/css" rel="stylesheet" href="../../uibuilder/vendor/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="../../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.css" />
+    
+    <link type="text/css" rel="stylesheet" href="./index.css" media="all">
+</head>
+<body>
+    <div id="app" v-cloak>
+        <b-container id="app_container">
+<!-- root folder version -->
+<!--             <b-img src="./images/node-blue-192x192.png" rounded left v-bind="imgProps" alt="Blue Node-RED" class="mt-1 mr-2"></b-img> -->
+<!-- sub folder version -->
+        <!-- <b-img src="../images/node-blue-192x192.png" rounded left v-bind="imgProps" alt="Blue Node-RED" class="mt-1 mr-2"></b-img> -->
+            <h3>Simple input using Vue</h3>
+            <b-form class="border p-3 m-2">
+                <p>
+                    <b-form-input v-model="inputText" type="text" placeholder="Text entered here will be sent when button clicked"></b-form-input><br>
+                    <b-form-checkbox v-model="inputChkBox">
+                        The status of this check box will be sent when the button is clicked.
+                    </b-form-checkbox><br>
+                    <b-button id="btn_increment" pill variant="primary" v-on:click="increment">Increment the count and send</b-button>
+                        &nbsp;&nbsp;Click Counter: <b>{{counterBtn}}</b>.
+                </p>
+            </b-form>
+
+            <h2>Dynamic Data using Vue</h2>
+            <b-card class="mt-3" header="Status" border-variant="info" header-bg-variant="info" header-text-variant="white" align="center" >
+                <p class="float-left">Socket.io Connection Status: <b>{{socketConnectedState}}</b></p>
+                <p class="float-right">Time offset between browser and server: <b>{{serverTimeOffset}}</b> hours</p>
+            </b-card>
+
+            <b-card class="mt-3" header="Normal Messages" border-variant="primary" header-bg-variant="primary" header-text-variant="white" align="left" >
+                <p>
+                    Messages: Received=<b>{{msgsReceived}}</b>, Sent=<b>{{msgsSent}}</b>
+                </p>
+                <pre v-html="hLastRcvd" class="syntax-highlight"></pre>
+                <pre v-html="hLastSent" class="syntax-highlight"></pre>
+            </b-card>
+
+            <b-card class="mt-3" header="Control Messages" border-variant="secondary" header-bg-variant="secondary" header-text-variant="white" align="left" >
+                <p>
+                    Control Messages: Received=<b>{{msgsControl}}</b>, Sent=<b>{{msgsCtrlSent}}</b>
+                </p>
+                <pre v-html="hLastCtrlRcvd" class="syntax-highlight"></pre>
+                <pre v-html="hLastCtrlSent" class="syntax-highlight"></pre>
+            </b-card>
+        </b-container>
+    </div>
+
+<!-- These MUST be in the right order. Note no leading / -->
+<!-- REQUIRED: Socket.IO is loaded only once for all instances. This is why there is no reference to the namespace when loading.
+        Without this, you don't get a websocket connection -->
+
+        <!-- root folder version -->
+        <!--         <script src="../uibuilder/vendor/socket.io/socket.io.js"></script> -->
+        <!-- sub folder version -->
+                <script src="../../uibuilder/vendor/socket.io/socket.io.js"></script>
+
+
+<!-- --- Vendor Libraries - Load in the right order --- -->
+        <!-- root folder version -->
+                <!--<script src="../uibuilder/vendor/vue/dist/vue.js"></script> <!--            dev version with component compiler --> -->
+        <!-- sub folder version -->
+                <script src="../../uibuilder/vendor/vue/dist/vue.js"></script> <!--             dev version with component compiler -->
+                <!-- <script src="../uibuilder/vendor/vue/dist/vue.min.js"></script>            prod version with component compiler -->
+                <!-- <script src="../uibuilder/vendor/vue/dist/vue.runtime.min.js"></script>    prod version without component compiler -->
+
+        <!-- root folder version -->
+                <!-- <script src="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.js"></script> -->
+        <!-- sub folder version -->
+                <script src="../../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.js"></script>
+<!--  --- OPTIONAL: Required if using vue-loader for personal components, then it is loaded from CDN -->
+                <script src="https://unpkg.com/http-vue-loader"></script>
+
+    <!-- REQUIRED: Sets up Socket listeners and the msg object -->
+        <!-- root folder version -->
+                <script src="./uibuilderfe.min.js"></script> <!--       prod version -->
+                <!-- <script src="./uibuilderfe.js"></script>           dev version -->
+        <!-- sub folder version -->
+                <script src="../uibuilderfe.min.js"></script> <!--      prod version -->
+                <!-- <script src="../uibuilderfe.js"></script>          dev version -->
+    
+<!--  --- OPTIONAL: Put your custom code here -->
+            <script src="./index.js"></script>
+</body>
+</html>

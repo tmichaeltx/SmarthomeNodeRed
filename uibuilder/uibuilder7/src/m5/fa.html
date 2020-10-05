@@ -1,0 +1,47 @@
+<!doctype html>
+<!-- Note that adding an appcache really speeds things up after the first load
+    You need to amend the appcache file to meet your needs.
+    Don't forget to change the appcache file if you update ANY
+    of the files in it otherwise the old versions will ALWAYS be used.
+<html lang="en" manifest="./uibuilder.appcache">
+-->
+<html lang="en">
+<!--
+    This started from the default template html for uibuilder that was then stripped down to only the inclusions
+    of VueJS & bootstrap-vue and the connection from/to the Node-RED server.
+    Note there will be 2 of these, one for when the file is in the root folder for uibuilder
+    and 1 for when it is in a sub folder.
+
+    Noteworthy is that both the html and the js files must be altered in this way. The version not being used is commented out.
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <title>Testing Font-Awesome</title>
+    <meta name="description" content="Simplified Node-RED UI Builder-based - VueJS + bootstrap-vue version">
+    <link rel="icon" href="../images/node-blue.ico">
+
+</head>
+
+<body>
+    hello world
+    Font Awesome 4.7<br>
+    <span style="font-size: 192px; color: Tomato;">
+        <i class="fa fa-camera"></i>
+    </span>
+
+    <span style="font-size: 48px; color: Dodgerblue;">
+        <i class="	fa fa-500px"></i>
+    </span>
+
+    <span style="font-size: 192px;">
+        <span style="color: Mediumslateblue;">
+            <i class="fa fa-lightbulb-o"></i>
+        </span>
+    </span>
+</body>
+<script src="https://use.fontawesome.com/f1b9502765.js"></script>
+
+</html>

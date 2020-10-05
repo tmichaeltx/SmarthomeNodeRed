@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="./test3.css" media="all">
+        <title>Example</title>
+    </head>
+    <body>
+        <h3>Group Lighting Control</h3>
+        <div class="block">
+          <div>
+            <input type="radio" name="item" id="item-one" checked hidden />
+            <label for="item-one">Upstairs Lights</label>
+            <div>
+                <md-button class="filled touched smallfont rounded vibrate" style="background-color:#00b894" ng-click="uibuilder.send( {payload: 'on', room: 'game'})"> 
+                    Turn On<br/>Group
+                </md-button>
+                <md-button class="vibrate filled touched smallfont rounded" style="background-color:#d63031" ng-click="send({payload: 'off', room: 'game'})"> 
+                    Turn Off<br/>Group
+                </md-button>
+                <md-button class="vibrate filled touched smallfont rounded" style="background-color:#0984e3"   ng-click="send({payload: 'toggle', room: 'game'})"> 
+                    Toggle<br/>group
+                </md-button> 
+            </div>
+          </div>
+          <div>
+            <input type="radio" name="item" id="item-two" hidden />
+            <label for="item-two">Living Room</label>
+            <div>
+                <md-button class="filled touched smallfont rounded vibrate" style="background-color:#00b894" ng-click="send({payload: 'on', room: 'living'})"> 
+                    Turn On<br/>Group
+                </md-button>
+                <md-button class="vibrate filled touched smallfont rounded" style="background-color:#d63031" ng-click="send({payload: 'off', room: 'living'})"> 
+                    Turn Off<br/>Group
+                </md-button>
+                <md-button class="vibrate filled touched smallfont rounded" style="background-color:#0984e3"   ng-click="send({payload: 'toggle', room: 'living'})"> 
+                    Toggle<br/>group
+                </md-button> 
+            </div>
+          </div>
+          <div>
+            <input type="radio" name="item" id="item-three" hidden />
+            <label for="item-three">What Is This Sorcery?!</label>
+            <div>
+        <md-button class="vibrate filled touched smallfont rounded" style="background-color:#c0392b" ng-click="send({payload: 'off'})"> 
+            Turn Off<br/>Group
+        </md-button>       <p>Nothing magical going on here. All we're doing is taking advantage of radio inputs and styling adjacent divs to display when an input is selected.</p>
+            </div>
+          </div>
+          <div>
+            <input type="radio" name="item" id="item-four" hidden />
+            <label for="item-four">How Long Have You Been Developing For?</label>
+            <div>
+              <p>I've been developing websites for nearly 10 years, with the majority of those years spent using WordPress.</p>
+            </div>
+          </div>
+          <div>
+            <input type="radio" name="item" id="item-five" hidden />
+            <label for="item-five">Where Can I Find You?</label>
+            <div>
+              <p>I'm on Twitter! You can follow me by clicking on the link to the right of this box!</p>
+            </div>
+          </div>
+        </div>    </body>
+</html>
