@@ -679,7 +679,9 @@
             "bdde2335.4840a"
         ],
         "x": 2395,
-        "y": 1153
+        "y": 1153,
+        "w": 784,
+        "h": 234
     },
     {
         "id": "d2b99255.45be2",
@@ -696,7 +698,9 @@
             "185e51b4.518f0e"
         ],
         "x": 3188,
-        "y": 1333
+        "y": 1333,
+        "w": 1786,
+        "h": 529
     },
     {
         "id": "acb28575.68c638",
@@ -744,7 +748,9 @@
             "77458362.fc18dc"
         ],
         "x": 28,
-        "y": 2479
+        "y": 2479,
+        "w": 3926,
+        "h": 2514
     },
     {
         "id": "87fcebea.cce428",
@@ -781,7 +787,9 @@
             "9f25b892.add718"
         ],
         "x": 8,
-        "y": 1313
+        "y": 1313,
+        "w": 1044,
+        "h": 374
     },
     {
         "id": "881231ee.ff488",
@@ -1301,7 +1309,9 @@
             "b36b297e.cc6ec8"
         ],
         "x": 8,
-        "y": 159
+        "y": 159,
+        "w": 958,
+        "h": 520
     },
     {
         "id": "9642bc1f.5cf5e",
@@ -1319,7 +1329,9 @@
             "93f64d46.d6aba"
         ],
         "x": 14,
-        "y": 15
+        "y": 15,
+        "w": 452,
+        "h": 130
     },
     {
         "id": "ea8f0245.b86cd",
@@ -2321,7 +2333,9 @@
             "237d7b7f.87bd34"
         ],
         "x": 8,
-        "y": 699
+        "y": 699,
+        "w": 838,
+        "h": 348
     },
     {
         "id": "e3d84519.9a1e58",
@@ -2345,7 +2359,9 @@
             "a1a7bb89.052fe8"
         ],
         "x": 14,
-        "y": 1067
+        "y": 1067,
+        "w": 1712,
+        "h": 214
     },
     {
         "id": "4efe4265.1ee55c",
@@ -2445,7 +2461,9 @@
             "dbb06ac5.b2cc78"
         ],
         "x": 2394,
-        "y": 19
+        "y": 19,
+        "w": 2578,
+        "h": 1122
     },
     {
         "id": "825363ed.fea94",
@@ -2624,37 +2642,6 @@
         "y": 19,
         "w": 1102,
         "h": 2362
-    },
-    {
-        "id": "87985db6.467e5",
-        "type": "group",
-        "z": "481839be.53b668",
-        "name": "Other Controls",
-        "style": {
-            "label": true,
-            "stroke": "#000000",
-            "fill": "#e3f3d3",
-            "color": "#000000"
-        },
-        "nodes": [
-            "cf2a1563.e3ab18",
-            "30a0a0f0.f4f7f",
-            "eca22e26.6526c",
-            "d5f33614.0dbab8",
-            "4474bafb.0707e4",
-            "1f90b51d.0f518b",
-            "cb46bf21.79f3a",
-            "8f19c2b8.102be",
-            "4e77e82.6b5ab18",
-            "74f0bf17.a3465",
-            "b36a1617.ee1c48",
-            "a925e8dd.d51e88",
-            "77ad88cb.674098"
-        ],
-        "x": 3454,
-        "y": 1419,
-        "w": 692,
-        "h": 314
     },
     {
         "id": "4dd520ce.8f18c",
@@ -3419,7 +3406,8 @@
             "e0b4fcfc.4e439",
             "29b6dc66.281564",
             "770f817c.a47b5",
-            "c6fe7730.c70c58"
+            "c6fe7730.c70c58",
+            "a778ff9e.59b5b"
         ],
         "x": 3914,
         "y": 476.5,
@@ -3545,7 +3533,9 @@
             "be27da93.96e918"
         ],
         "x": 2421,
-        "y": 1179
+        "y": 1179,
+        "w": 652,
+        "h": 82
     },
     {
         "id": "5658cbb8.b26b24",
@@ -3582,7 +3572,9 @@
             "31e9fce9.194a94"
         ],
         "x": 2421,
-        "y": 1279
+        "y": 1279,
+        "w": 732,
+        "h": 82
     },
     {
         "id": "1cfc0072.40871",
@@ -4052,7 +4044,9 @@
             "c3a10cd4.5a36e"
         ],
         "x": 3214,
-        "y": 1359
+        "y": 1359,
+        "w": 1734,
+        "h": 477
     },
     {
         "id": "94def566.d03c48",
@@ -4075,7 +4069,9 @@
             "84da32b1.929b6"
         ],
         "x": 54,
-        "y": 2799
+        "y": 2799,
+        "w": 802,
+        "h": 146
     },
     {
         "id": "994d1832.d845b8",
@@ -4091,7 +4087,9 @@
             "4d45c4f7.be0c0c"
         ],
         "x": 2474,
-        "y": 2779
+        "y": 2779,
+        "w": 552,
+        "h": 82
     },
     {
         "id": "77832252.33b73c",
@@ -4115,7 +4113,9 @@
             "de28a7de.7015f8"
         ],
         "x": 2474,
-        "y": 2919
+        "y": 2919,
+        "w": 1132,
+        "h": 242
     },
     {
         "id": "b3fd730.87ad59",
@@ -4136,7 +4136,9 @@
             "6cfb5774.6b9eb8"
         ],
         "x": 68,
-        "y": 3493
+        "y": 3493,
+        "w": 3860,
+        "h": 1474
     },
     {
         "id": "7a200881.689618",
@@ -4176,7 +4178,9 @@
             "54b6f6df.6130f8"
         ],
         "x": 1214,
-        "y": 2799
+        "y": 2799,
+        "w": 1232,
+        "h": 642
     },
     {
         "id": "b707d054.0b19",
@@ -4195,7 +4199,9 @@
             "241a4ece.a1cd92"
         ],
         "x": 1784,
-        "y": 2559
+        "y": 2559,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "ce05b09b.686b4",
@@ -4221,7 +4227,9 @@
             "15fc5f7a.f06931"
         ],
         "x": 54,
-        "y": 2599
+        "y": 2599,
+        "w": 832,
+        "h": 182
     },
     {
         "id": "6b4a5fc8.b87d9",
@@ -4244,7 +4252,9 @@
             "b4116ad9.497748"
         ],
         "x": 54,
-        "y": 2973
+        "y": 2973,
+        "w": 932,
+        "h": 334
     },
     {
         "id": "6c2a91e5.bc722",
@@ -4283,7 +4293,9 @@
             "1949996a.3a74d7"
         ],
         "x": 34,
-        "y": 1339
+        "y": 1339,
+        "w": 992,
+        "h": 122
     },
     {
         "id": "54d7639b.06260c",
@@ -4299,7 +4311,9 @@
             "ca7c5a2.0eff3a8"
         ],
         "x": 34,
-        "y": 1579
+        "y": 1579,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "797e71fa.d05d8",
@@ -4315,7 +4329,9 @@
             "ed6d395f.0e8d38"
         ],
         "x": 34,
-        "y": 1479
+        "y": 1479,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "9f25b892.add718",
@@ -4331,7 +4347,9 @@
             "89e6cd89.71727"
         ],
         "x": 414,
-        "y": 1479
+        "y": 1479,
+        "w": 596,
+        "h": 122
     },
     {
         "id": "f089cce1.952a",
@@ -4350,7 +4368,9 @@
             "15f227da.30d3d8"
         ],
         "x": 3874,
-        "y": 279
+        "y": 279,
+        "w": 1072,
+        "h": 162
     },
     {
         "id": "27ea68d1.151cf8",
@@ -4533,7 +4553,9 @@
             "da674414.35cf48"
         ],
         "x": 34,
-        "y": 247
+        "y": 247,
+        "w": 732,
+        "h": 406
     },
     {
         "id": "54d2d1c2.de341",
@@ -6237,7 +6259,9 @@
             "2e4332cc.7f710e"
         ],
         "x": 34,
-        "y": 779
+        "y": 779,
+        "w": 632,
+        "h": 242
     },
     {
         "id": "dbb06ac5.b2cc78",
@@ -6261,7 +6285,9 @@
             "f12a136b.0cc86"
         ],
         "x": 3774,
-        "y": 899
+        "y": 899,
+        "w": 1112,
+        "h": 162
     },
     {
         "id": "59c5f724.847ca8",
@@ -6467,7 +6493,9 @@
             "ecdd6831.1a11a8"
         ],
         "x": 1854,
-        "y": 4459
+        "y": 4459,
+        "w": 792,
+        "h": 422
     },
     {
         "id": "a24709e2.f3cd48",
@@ -6884,7 +6912,9 @@
             "5767fa26.bb4de4"
         ],
         "x": 3954,
-        "y": 1633
+        "y": 1633,
+        "w": 968,
+        "h": 174
     },
     {
         "id": "9b4106c9.9432c8",
@@ -6903,7 +6933,9 @@
             "8807900.b10f77"
         ],
         "x": 3954,
-        "y": 1393
+        "y": 1393,
+        "w": 908,
+        "h": 174
     },
     {
         "id": "6502b4a2.642dac",
@@ -6924,7 +6956,9 @@
             "9515f468.a53a78"
         ],
         "x": 1848,
-        "y": 3533
+        "y": 3533,
+        "w": 2054,
+        "h": 880
     },
     {
         "id": "382331ee.b4271e",
@@ -6944,7 +6978,9 @@
             "3cda9603.cc993a"
         ],
         "x": 334,
-        "y": 3199
+        "y": 3199,
+        "w": 412,
+        "h": 82
     },
     {
         "id": "75d6ba99.6c8b14",
@@ -6964,7 +7000,9 @@
             "b300456d.765658"
         ],
         "x": 334,
-        "y": 2999
+        "y": 2999,
+        "w": 412,
+        "h": 82
     },
     {
         "id": "77c43581.87bd3c",
@@ -6984,7 +7022,9 @@
             "55f2d160.01218"
         ],
         "x": 334,
-        "y": 3099
+        "y": 3099,
+        "w": 412,
+        "h": 82
     },
     {
         "id": "6cfb5774.6b9eb8",
@@ -7081,7 +7121,9 @@
             "ab99c22f.ec8f1"
         ],
         "x": 94,
-        "y": 3519
+        "y": 3519,
+        "w": 1712,
+        "h": 1422
     },
     {
         "id": "f7c27453.3de498",
@@ -7401,7 +7443,9 @@
             "2b9544d6.3f3f9c"
         ],
         "x": 4264,
-        "y": 1659
+        "y": 1659,
+        "w": 632,
+        "h": 122
     },
     {
         "id": "8807900.b10f77",
@@ -7418,7 +7462,9 @@
             "3c227c89.c528e4"
         ],
         "x": 4264,
-        "y": 1419
+        "y": 1419,
+        "w": 572,
+        "h": 122
     },
     {
         "id": "e52d78da.0093f8",
@@ -7438,7 +7484,9 @@
             "70b1c6b3.b001b8"
         ],
         "x": 1874,
-        "y": 3559
+        "y": 3559,
+        "w": 502,
+        "h": 828
     },
     {
         "id": "1cc2c6cc.1e2dc9",
@@ -7465,7 +7513,9 @@
             "27ebb019.f8403"
         ],
         "x": 3474,
-        "y": 3559
+        "y": 3559,
+        "w": 402,
+        "h": 482
     },
     {
         "id": "ee49e33a.868a4",
@@ -7498,7 +7548,9 @@
             "ebca1f34.4c03"
         ],
         "x": 2394,
-        "y": 3559
+        "y": 3559,
+        "w": 562,
+        "h": 682
     },
     {
         "id": "9515f468.a53a78",
@@ -7531,7 +7583,9 @@
             "d817c98b.71bd08"
         ],
         "x": 2974,
-        "y": 3559
+        "y": 3559,
+        "w": 482,
+        "h": 682
     },
     {
         "id": "711c2e17.92e84",
@@ -7561,7 +7615,9 @@
             "6aeb5671.130388"
         ],
         "x": 1984,
-        "y": 3679
+        "y": 3679,
+        "w": 272,
+        "h": 682
     },
     {
         "id": "5586e843.d14e08",
@@ -7669,13 +7725,49 @@
             "51843c9a.0bc3c4",
             "e4ca97d0.425f28",
             "b42ae603.1404b8",
-            "9554a58b.d4a358",
-            "7ec0ae32.85a73"
+            "9554a58b.d4a358"
         ],
         "x": 1174,
         "y": 19,
         "w": 752,
         "h": 1222
+    },
+    {
+        "id": "b8546858.3e4eb8",
+        "type": "group",
+        "z": "481839be.53b668",
+        "name": "Other Controls",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
+        },
+        "nodes": [
+            "4e2849c5.5001b8",
+            "a77a78a2.64c9b8",
+            "d1094470.e4f9d8",
+            "f4b77b05.944238",
+            "18cc1a7b.cba3b6",
+            "e8b04e09.ae024",
+            "920e16c5.526748",
+            "ea95e920.6c8338",
+            "4f02ac6f.e3dd44",
+            "f80f44bb.389708",
+            "b9bcfc1d.a8e1e",
+            "b86a8ff3.f9c4b",
+            "7c98b0fb.20eef",
+            "a1b8c4ca.f37a78",
+            "e2aaba7f.329728",
+            "4f2c3019.2db2",
+            "fbfdf8ac.fa4a38",
+            "9b721e5f.aba75",
+            "cf8b995e.3913f8"
+        ],
+        "x": 874,
+        "y": 2399,
+        "w": 912,
+        "h": 334
     },
     {
         "id": "2f23f49.924a10c",
@@ -27820,14 +27912,15 @@
         "g": "6cfb5774.6b9eb8",
         "name": "K Temp 1",
         "server": "55e4481a.722098",
-        "deviceId": "772",
+        "deviceId": "890",
         "attribute": "",
         "sendEvent": true,
         "x": 1260,
         "y": 3880,
         "wires": [
             [
-                "7d9dd282.aa428c"
+                "7d9dd282.aa428c",
+                "8d5ffb74.350428"
             ]
         ]
     },
@@ -27998,12 +28091,12 @@
         "type": "hubitat device",
         "z": "a280aade.b19d78",
         "g": "6cfb5774.6b9eb8",
-        "name": "MT Relay",
+        "name": "Upstairs Hallway Outlet",
         "server": "55e4481a.722098",
         "deviceId": "101",
         "attribute": "",
         "sendEvent": true,
-        "x": 1260,
+        "x": 1310,
         "y": 4280,
         "wires": [
             [
@@ -29692,7 +29785,9 @@
             "18d80c98.5d6cb3",
             "fad2afd8.1f507",
             "4e77e82.6b5ab18",
-            "1fee5e0c.236d32"
+            "1fee5e0c.236d32",
+            "437c34b.a8d8fcc",
+            "920e16c5.526748"
         ],
         "x": 1770,
         "y": 120,
@@ -30838,7 +30933,9 @@
             "38a3e219.83116e",
             "fb55da13.67f6f8",
             "3440b157.2c5e6e",
-            "8f19c2b8.102be"
+            "8f19c2b8.102be",
+            "2912d58e.64ccaa",
+            "e8b04e09.ae024"
         ],
         "x": 1780,
         "y": 1880,
@@ -31554,7 +31651,9 @@
             "6517f2fa.b0c99c",
             "fb55da13.67f6f8",
             "3440b157.2c5e6e",
-            "8f19c2b8.102be"
+            "8f19c2b8.102be",
+            "2912d58e.64ccaa",
+            "e8b04e09.ae024"
         ],
         "x": 1770,
         "y": 1920,
@@ -32534,7 +32633,9 @@
             "18d80c98.5d6cb3",
             "fad2afd8.1f507",
             "4e77e82.6b5ab18",
-            "1fee5e0c.236d32"
+            "1fee5e0c.236d32",
+            "437c34b.a8d8fcc",
+            "920e16c5.526748"
         ],
         "x": 3050,
         "y": 1620,
@@ -32585,7 +32686,9 @@
             "38a3e219.83116e",
             "fb55da13.67f6f8",
             "3440b157.2c5e6e",
-            "8f19c2b8.102be"
+            "8f19c2b8.102be",
+            "2912d58e.64ccaa",
+            "e8b04e09.ae024"
         ],
         "x": 3040,
         "y": 1700,
@@ -32656,7 +32759,9 @@
             "6517f2fa.b0c99c",
             "fb55da13.67f6f8",
             "3440b157.2c5e6e",
-            "8f19c2b8.102be"
+            "8f19c2b8.102be",
+            "2912d58e.64ccaa",
+            "e8b04e09.ae024"
         ],
         "x": 3030,
         "y": 1980,
@@ -43042,7 +43147,9 @@
             "cade0545.3299d8",
             "fb55da13.67f6f8",
             "3440b157.2c5e6e",
-            "8f19c2b8.102be"
+            "8f19c2b8.102be",
+            "2912d58e.64ccaa",
+            "e8b04e09.ae024"
         ],
         "x": 4080,
         "y": 1080,
@@ -43345,7 +43452,9 @@
             "8f19c2b8.102be",
             "9b66376f.d779f8",
             "cc1bbdfa.05909",
-            "4f80fc04.ce8bb4"
+            "4f80fc04.ce8bb4",
+            "2912d58e.64ccaa",
+            "e8b04e09.ae024"
         ],
         "x": 4070,
         "y": 640,
@@ -43389,7 +43498,8 @@
         "y": 640,
         "wires": [
             [
-                "9de8ca12.6560b8"
+                "9de8ca12.6560b8",
+                "a778ff9e.59b5b"
             ]
         ]
     },
@@ -43408,7 +43518,8 @@
         "y": 560,
         "wires": [
             [
-                "9de8ca12.6560b8"
+                "9de8ca12.6560b8",
+                "a778ff9e.59b5b"
             ]
         ]
     },
@@ -43427,7 +43538,8 @@
         "y": 680,
         "wires": [
             [
-                "9de8ca12.6560b8"
+                "9de8ca12.6560b8",
+                "a778ff9e.59b5b"
             ]
         ]
     },
@@ -43446,7 +43558,8 @@
         "y": 600,
         "wires": [
             [
-                "9de8ca12.6560b8"
+                "9de8ca12.6560b8",
+                "a778ff9e.59b5b"
             ]
         ]
     },
@@ -47959,7 +48072,9 @@
             "18d80c98.5d6cb3",
             "fad2afd8.1f507",
             "4e77e82.6b5ab18",
-            "1fee5e0c.236d32"
+            "1fee5e0c.236d32",
+            "437c34b.a8d8fcc",
+            "920e16c5.526748"
         ],
         "x": 4090,
         "y": 1460,
@@ -53269,7 +53384,9 @@
             "f6710149.0feee",
             "79086b13.6ae794",
             "4f7a92a9.cc384c",
-            "77ad88cb.674098"
+            "77ad88cb.674098",
+            "22a442c1.6e7f3e",
+            "f80f44bb.389708"
         ],
         "x": 2290,
         "y": 2340,
@@ -65075,7 +65192,9 @@
             "18d80c98.5d6cb3",
             "fad2afd8.1f507",
             "4e77e82.6b5ab18",
-            "1fee5e0c.236d32"
+            "1fee5e0c.236d32",
+            "437c34b.a8d8fcc",
+            "920e16c5.526748"
         ],
         "x": 2150,
         "y": 180,
@@ -65126,7 +65245,9 @@
             "38a3e219.83116e",
             "fb55da13.67f6f8",
             "3440b157.2c5e6e",
-            "8f19c2b8.102be"
+            "8f19c2b8.102be",
+            "2912d58e.64ccaa",
+            "e8b04e09.ae024"
         ],
         "x": 2140,
         "y": 1260,
@@ -65197,7 +65318,9 @@
             "6517f2fa.b0c99c",
             "fb55da13.67f6f8",
             "3440b157.2c5e6e",
-            "8f19c2b8.102be"
+            "8f19c2b8.102be",
+            "2912d58e.64ccaa",
+            "e8b04e09.ae024"
         ],
         "x": 2130,
         "y": 1300,
@@ -66273,7 +66396,7 @@
         "z": "a280aade.b19d78",
         "g": "6cfb5774.6b9eb8",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -69644,7 +69767,7 @@
         "z": "a280aade.b19d78",
         "g": "e3d84519.9a1e58",
         "name": "Get Device and Mesurement \\n Lookup Hub and ID\\n Create URL",
-        "func": "if (msg.topic.substring(0,3) == \"All\"){\n    var secondSlash = msg.topic.substring(4).indexOf(\"/\")\n    var device = msg.topic.substring(4,secondSlash+4)\n    var thirdSlash =msg.topic.substring(4+secondSlash+1).indexOf(\"/\")\n    var measurement = msg.topic.substring(4+secondSlash+1,4+secondSlash+1+thirdSlash )\n\n    msg.device = device\n    msg.measurement = measurement\n    delete msg.qos\n    delete msg.retain\n\n}\n    let d = global.get(\"Devices\")\n    for (mainIndex = 0; mainIndex < d[0].length; mainIndex++) {\n        if (d[0][mainIndex] == 'MQTTDeviceTopic') {\n            mCol = mainIndex\n            break\n        }\n    }\n    let matchingDataRows = d.filter((item) => (item[mCol]== msg.device))\n    msg.devID = matchingDataRows[0][10]\n    msg.hub =  matchingDataRows[0][11]\n    msg.url = `192.168.86.110/apps/api/646/devices/` + msg.devID+`/events?access_token=79eb990f-05f6-4f92-b9ee-ff39db572caf`\n\n\n\n\n\n\n    let m = global.get(\"MeasurementTranslations\")\n    for (mainIndex = 0; mainIndex < m[0].length; mainIndex++) {\n        if (m[0][mainIndex] == 'ChangeNameTo') {\n            cCol = mainIndex\n            break\n        }\n    }\n    node.warn(cCol)\n    let matchingMeasurementDataRows = m.filter((item) => (item[cCol]== msg.measurement))\n    msg.measurement = matchingMeasurementDataRows[0][1]\n    msg.url = `192.168.86.110/apps/api/646/devices/` + msg.devID+`/events?access_token=79eb990f-05f6-4f92-b9ee-ff39db572caf`\nreturn msg;\n",
+        "func": "if (msg.topic.substring(0,3) == \"All\"){\n    var secondSlash = msg.topic.substring(4).indexOf(\"/\")\n    var device = msg.topic.substring(4,secondSlash+4)\n    var thirdSlash =msg.topic.substring(4+secondSlash+1).indexOf(\"/\")\n    var measurement = msg.topic.substring(4+secondSlash+1,4+secondSlash+1+thirdSlash )\n\n    msg.device = device\n    msg.measurement = measurement\n    delete msg.qos\n    delete msg.retain\n\n}\n    let d = global.get(\"Devices\")\n    for (mainIndex = 0; mainIndex < d[0].length; mainIndex++) {\n        if (d[0][mainIndex] == 'MQTTDeviceTopic') {\n            mCol = mainIndex\n            break\n        }\n    }\n    let matchingDataRows = d.filter((item) => (item[mCol]== msg.device))\n    msg.devID = matchingDataRows[0][10]\n    msg.hub =  matchingDataRows[0][11]\n    msg.url = `192.168.86.110/apps/api/646/devices/` + msg.devID+`/events?access_token=79eb990f-05f6-4f92-b9ee-ff39db572caf`\n\n\n\n\n\n\n    let m = global.get(\"MeasurementTranslations\")\n    for (mainIndex = 0; mainIndex < m[0].length; mainIndex++) {\n        if (m[0][mainIndex] == 'ChangeNameTo') {\n            cCol = mainIndex\n            break\n        }\n    }\n    let matchingMeasurementDataRows = m.filter((item) => (item[cCol]== msg.measurement))\n    msg.measurement = matchingMeasurementDataRows[0][1]\n    msg.url = `192.168.86.110/apps/api/646/devices/` + msg.devID+`/events?access_token=79eb990f-05f6-4f92-b9ee-ff39db572caf`\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -75310,209 +75433,6 @@
         "l": false
     },
     {
-        "id": "cf2a1563.e3ab18",
-        "type": "ui_button",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "",
-        "group": "84f8160c.eb2dd8",
-        "order": 1,
-        "width": 6,
-        "height": 1,
-        "passthru": false,
-        "label": "Power",
-        "tooltip": "",
-        "color": "#19374A",
-        "bgcolor": "#DCF3DC",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "",
-        "x": 3550,
-        "y": 1460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "30a0a0f0.f4f7f",
-        "type": "ui_switch",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "Upstairs Hallway\\n Outlet",
-        "label": "Upstairs Hallway Outlet",
-        "tooltip": "",
-        "group": "84f8160c.eb2dd8",
-        "order": 2,
-        "width": 3,
-        "height": 2,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "style": "",
-        "onvalue": "{\"state\":\"ON\"}",
-        "onvalueType": "json",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "{\"state\":\"OFF\"}",
-        "offvalueType": "json",
-        "officon": "",
-        "offcolor": "",
-        "x": 3830,
-        "y": 1520,
-        "wires": [
-            [
-                "8f19c2b8.102be"
-            ]
-        ]
-    },
-    {
-        "id": "eca22e26.6526c",
-        "type": "ui_switch",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "Downstairs Hallway\\n Outlet",
-        "label": "Downstairs Hallway Outlet",
-        "tooltip": "",
-        "group": "84f8160c.eb2dd8",
-        "order": 3,
-        "width": 3,
-        "height": 2,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "style": "",
-        "onvalue": "{\"state\":\"ON\"}",
-        "onvalueType": "json",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "{\"state\":\"OFF\"}",
-        "offvalueType": "json",
-        "officon": "",
-        "offcolor": "",
-        "x": 3830,
-        "y": 1600,
-        "wires": [
-            [
-                "4e77e82.6b5ab18"
-            ]
-        ]
-    },
-    {
-        "id": "d5f33614.0dbab8",
-        "type": "function",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "",
-        "func": "if (msg.payload ==\"on\"){\n    msg.payload = {\"state\":\"ON\"}\n}else {\n    msg.payload = {\"state\":\"OFF\"}\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 3715,
-        "y": 1520,
-        "wires": [
-            [
-                "30a0a0f0.f4f7f"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "4474bafb.0707e4",
-        "type": "function",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "",
-        "func": "if (msg.payload ==\"on\"){\n    msg.payload = {\"state\":\"ON\"}\n}else {\n    msg.payload = {\"state\":\"OFF\"}\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 3715,
-        "y": 1600,
-        "wires": [
-            [
-                "eca22e26.6526c"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "1f90b51d.0f518b",
-        "type": "mqtt in",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "All/Upstairs Hallway\\n Outlet/switch",
-        "topic": "All/Upstairs Hallway Outlet/switch",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "a5bf81ee.27852",
-        "x": 3590,
-        "y": 1520,
-        "wires": [
-            [
-                "d5f33614.0dbab8"
-            ]
-        ]
-    },
-    {
-        "id": "cb46bf21.79f3a",
-        "type": "mqtt in",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "All/Downstairs Hallway\\n Switch/switch",
-        "topic": "All/Downstairs Hallway Switch/switch",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "a5bf81ee.27852",
-        "x": 3580,
-        "y": 1600,
-        "wires": [
-            [
-                "4474bafb.0707e4"
-            ]
-        ]
-    },
-    {
-        "id": "8f19c2b8.102be",
-        "type": "link out",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "Upstairs\\n Hallway",
-        "links": [
-            "225958b.b5184a8",
-            "43c4960d.464f98",
-            "49197e11.34aad",
-            "59fcbaed.831c84",
-            "650904d4.83b14c",
-            "c09a6d2b.4bfd5",
-            "c55475cd.418228",
-            "de2c2adf.9d6688"
-        ],
-        "x": 4000,
-        "y": 1520,
-        "wires": [],
-        "l": true
-    },
-    {
-        "id": "4e77e82.6b5ab18",
-        "type": "link out",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "Downstairs\\n Hallway",
-        "links": [
-            "ab590116.896dc",
-            "b8217e84.b57be",
-            "e290a06c.6836e",
-            "fc20a6a0.220058"
-        ],
-        "x": 4010,
-        "y": 1600,
-        "wires": [],
-        "l": true
-    },
-    {
         "id": "cae799c2.9af0c8",
         "type": "inject",
         "z": "a280aade.b19d78",
@@ -75569,90 +75489,6 @@
                 "2b9544d6.3f3f9c"
             ]
         ]
-    },
-    {
-        "id": "74f0bf17.a3465",
-        "type": "mqtt in",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "All/Fixed Outlet\\n Maybe/State",
-        "topic": "All/Fixed Outlet Maybe/State",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "a5bf81ee.27852",
-        "x": 3600,
-        "y": 1680,
-        "wires": [
-            [
-                "b36a1617.ee1c48"
-            ]
-        ]
-    },
-    {
-        "id": "b36a1617.ee1c48",
-        "type": "function",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "",
-        "func": "if (msg.payload ==\"ON\"){\n    msg.payload = {\"state\":\"ON\"}\n}else {\n    msg.payload = {\"state\":\"OFF\"}\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 3715,
-        "y": 1680,
-        "wires": [
-            [
-                "a925e8dd.d51e88"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "a925e8dd.d51e88",
-        "type": "ui_switch",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "iPad Charger",
-        "label": "iPad Charger",
-        "tooltip": "",
-        "group": "84f8160c.eb2dd8",
-        "order": 3,
-        "width": 3,
-        "height": 2,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "style": "",
-        "onvalue": "{\"state\":\"ON\"}",
-        "onvalueType": "json",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "{\"state\":\"OFF\"}",
-        "offvalueType": "json",
-        "officon": "",
-        "offcolor": "",
-        "x": 3810,
-        "y": 1680,
-        "wires": [
-            [
-                "77ad88cb.674098"
-            ]
-        ]
-    },
-    {
-        "id": "77ad88cb.674098",
-        "type": "link out",
-        "z": "481839be.53b668",
-        "g": "87985db6.467e5",
-        "name": "Fixed Outlet Maybe",
-        "links": [
-            "9495175d.4de8b8"
-        ],
-        "x": 4030,
-        "y": 1680,
-        "wires": [],
-        "l": true
     },
     {
         "id": "83c6bfe.2eb284",
@@ -84263,8 +84099,7 @@
         "y": 640,
         "wires": [
             [
-                "e4ca97d0.425f28",
-                "7ec0ae32.85a73"
+                "e4ca97d0.425f28"
             ]
         ]
     },
@@ -84284,20 +84119,438 @@
         ]
     },
     {
-        "id": "7ec0ae32.85a73",
+        "id": "a778ff9e.59b5b",
         "type": "debug",
-        "z": "481839be.53b668",
-        "g": "c1f6bc7f.c61f3",
+        "z": "c7efb292.57df3",
+        "g": "d8a62cec.91135",
         "name": "",
         "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1340,
-        "y": 380,
+        "x": 4690,
+        "y": 760,
         "wires": []
+    },
+    {
+        "id": "4e2849c5.5001b8",
+        "type": "ui_button",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "",
+        "group": "84f8160c.eb2dd8",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Power",
+        "tooltip": "",
+        "color": "#19374A",
+        "bgcolor": "#DCF3DC",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 1190,
+        "y": 2440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a77a78a2.64c9b8",
+        "type": "ui_switch",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Upstairs Hallway\\n Outlet",
+        "label": "Upstairs Hallway Outlet",
+        "tooltip": "",
+        "group": "84f8160c.eb2dd8",
+        "order": 2,
+        "width": 3,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "{\"state\":\"ON\"}",
+        "onvalueType": "json",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "{\"state\":\"OFF\"}",
+        "offvalueType": "json",
+        "officon": "",
+        "offcolor": "",
+        "x": 1470,
+        "y": 2500,
+        "wires": [
+            [
+                "b86a8ff3.f9c4b"
+            ]
+        ]
+    },
+    {
+        "id": "d1094470.e4f9d8",
+        "type": "ui_switch",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Downstairs Hallway\\n Outlet",
+        "label": "Downstairs Hallway Outlet",
+        "tooltip": "",
+        "group": "84f8160c.eb2dd8",
+        "order": 3,
+        "width": 3,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "{\"state\":\"ON\"}",
+        "onvalueType": "json",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "{\"state\":\"OFF\"}",
+        "offvalueType": "json",
+        "officon": "",
+        "offcolor": "",
+        "x": 1470,
+        "y": 2580,
+        "wires": [
+            [
+                "7c98b0fb.20eef"
+            ]
+        ]
+    },
+    {
+        "id": "f4b77b05.944238",
+        "type": "mqtt in",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "All/Upstairs Hallway\\n Outlet/switch",
+        "topic": "All/Upstairs Hallway Outlet/switch",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "a5bf81ee.27852",
+        "x": 1170,
+        "y": 2500,
+        "wires": [
+            [
+                "b9bcfc1d.a8e1e"
+            ]
+        ]
+    },
+    {
+        "id": "18cc1a7b.cba3b6",
+        "type": "mqtt in",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "All/Downstairs Hallway\\n Switch/switch",
+        "topic": "All/Downstairs Hallway Switch/switch",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "a5bf81ee.27852",
+        "x": 1160,
+        "y": 2580,
+        "wires": [
+            [
+                "a1b8c4ca.f37a78"
+            ]
+        ]
+    },
+    {
+        "id": "e8b04e09.ae024",
+        "type": "link out",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Upstairs\\n Hallway",
+        "links": [
+            "225958b.b5184a8",
+            "43c4960d.464f98",
+            "49197e11.34aad",
+            "59fcbaed.831c84",
+            "650904d4.83b14c",
+            "c09a6d2b.4bfd5",
+            "c55475cd.418228",
+            "de2c2adf.9d6688"
+        ],
+        "x": 1680,
+        "y": 2500,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "920e16c5.526748",
+        "type": "link out",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Downstairs\\n Hallway",
+        "links": [
+            "ab590116.896dc",
+            "b8217e84.b57be",
+            "e290a06c.6836e",
+            "fc20a6a0.220058"
+        ],
+        "x": 1690,
+        "y": 2580,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "ea95e920.6c8338",
+        "type": "mqtt in",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "All/Fixed Outlet\\n Maybe/State",
+        "topic": "All/Fixed Outlet Maybe/State",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "a5bf81ee.27852",
+        "x": 1140,
+        "y": 2680,
+        "wires": [
+            [
+                "4f2c3019.2db2"
+            ]
+        ]
+    },
+    {
+        "id": "4f02ac6f.e3dd44",
+        "type": "ui_switch",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "iPad Charger",
+        "label": "iPad Charger",
+        "tooltip": "",
+        "group": "84f8160c.eb2dd8",
+        "order": 3,
+        "width": 3,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "{\"state\":\"ON\"}",
+        "onvalueType": "json",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "{\"state\":\"OFF\"}",
+        "offvalueType": "json",
+        "officon": "",
+        "offcolor": "",
+        "x": 1450,
+        "y": 2680,
+        "wires": [
+            [
+                "e2aaba7f.329728"
+            ]
+        ]
+    },
+    {
+        "id": "f80f44bb.389708",
+        "type": "link out",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Fixed Outlet Maybe",
+        "links": [
+            "9495175d.4de8b8"
+        ],
+        "x": 1670,
+        "y": 2680,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "b9bcfc1d.a8e1e",
+        "type": "function",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Incoming Might\\n Be Duplicate",
+        "func": "if (msg.payload ==\"on\"){\n    msg.payload = {\"state\":\"ON\"}\n} else if (msg.payload ==\"off\") {\n    msg.payload = {\"state\":\"OFF\"}\n} else if (msg.payload ==\"ON\"){\n    msg.payload = {\"state\":\"ON\"}\n}else if (msg.payload ==\"OFF\") {\n    msg.payload = {\"state\":\"OFF\"}\n}\n//lastSent = flow.get(\"xxxxxxxxxxxxxxxxxxxxxxxxFromDashboard\")\nlastSent = flow.get(\"UpstairsHallwayOutletFromDashboard\")\nlastReceived = msg.payload  //reformat if needed\n//if the 2 match then don't send to the Dashboard Node\nif (JSON.stringify(lastSent) == JSON.stringify(lastReceived)){\n    //flow.set(\"xxxxxxxxxxxxxxxxxxxUpdateButNoSendValue\", lastReceived)\n    flow.set(\"UpstairsHallwayOutletUpdateButNoSendValue\", lastReceived)\n    return\n} else{\n    //flow.set(\"xxxxxxxxxxxxxxxxxxxUpdateButNoSendValue\", lastReceived)\n    flow.set(\"UpstairsHallwayOutletUpdateButNoSendValue\", lastReceived)\n    return msg\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1355,
+        "y": 2500,
+        "wires": [
+            [
+                "a77a78a2.64c9b8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b86a8ff3.f9c4b",
+        "type": "function",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Outgoing Might\\n Be Duplicate",
+        "func": "//checkForNoSendValue = flow.get(\"xxxxxxxxxxxxxxxxxxxUpdateButNoSendValue\")\ncheckForNoSendValue = flow.get(\"UpstairsHallwayOutletUpdateButNoSendValue\")\nif (JSON.stringify(msg.payload) == JSON.stringify(checkForNoSendValue)){\n//  flow.set(\"xxxxxxxxxxxxxxxxxxxxxxxxFromDashboard\", msg.payload)\n    flow.set(\"UpstairsHallwayOutletFromDashboard\", msg.payload)\n    return\n} else {\n//  return msg.payload in downstream format\n//  flow.set(\"xxxxxxxxxxxxxxxxxxxxxxxxFromDashboard\", msg.payload)\n    flow.set(\"UpstairsHallwayOutletFromDashboard\", msg.payload)\n    return msg\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1595,
+        "y": 2500,
+        "wires": [
+            [
+                "e8b04e09.ae024"
+            ]
+        ],
+        "icon": "node-red-contrib-sun-position/sun-white.png",
+        "l": false
+    },
+    {
+        "id": "7c98b0fb.20eef",
+        "type": "function",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Outgoing Might\\n Be Duplicate",
+        "func": "//checkForNoSendValue = flow.get(\"xxxxxxxxxxxxxxxxxxxUpdateButNoSendValue\")\ncheckForNoSendValue = flow.get(\"DownstairsHallwaySwitchUpdateButNoSendValue\")\nif (JSON.stringify(msg.payload) == JSON.stringify(checkForNoSendValue)){\n//  flow.set(\"xxxxxxxxxxxxxxxxxxxxxxxxFromDashboard\", msg.payload)\n    flow.set(\"DownstairsHallwaySwitchFromDashboard\", msg.payload)\n    return\n} else {\n//  return msg.payload in downstream format\n//  flow.set(\"xxxxxxxxxxxxxxxxxxxxxxxxFromDashboard\", msg.payload)\n    flow.set(\"DownstairsHallwaySwitchFromDashboard\", msg.payload)\n    return msg\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1595,
+        "y": 2580,
+        "wires": [
+            [
+                "920e16c5.526748"
+            ]
+        ],
+        "icon": "node-red-contrib-sun-position/sun-white.png",
+        "l": false
+    },
+    {
+        "id": "a1b8c4ca.f37a78",
+        "type": "function",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Incoming Might\\n Be Duplicate",
+        "func": "if (msg.payload ==\"on\"){\n    msg.payload = {\"state\":\"ON\"}\n} else if (msg.payload ==\"off\") {\n    msg.payload = {\"state\":\"OFF\"}\n} else if (msg.payload ==\"ON\"){\n    msg.payload = {\"state\":\"ON\"}\n}else if (msg.payload ==\"OFF\") {\n    msg.payload = {\"state\":\"OFF\"}\n}\n//lastSent = flow.get(\"xxxxxxxxxxxxxxxxxxxxxxxxFromDashboard\")\nlastSent = flow.get(\"DownstairsHallwaySwitchFromDashboard\")\nlastReceived = msg.payload  //reformat if needed\n//if the 2 match then don't send to the Dashboard Node\nif (JSON.stringify(lastSent) == JSON.stringify(lastReceived)){\n    //flow.set(\"xxxxxxxxxxxxxxxxxxxUpdateButNoSendValue\", lastReceived)\n    flow.set(\"DownstairsHallwaySwitchUpdateButNoSendValue\", lastReceived)\n    return\n} else{\n    //flow.set(\"xxxxxxxxxxxxxxxxxxxUpdateButNoSendValue\", lastReceived)\n    flow.set(\"DownstairsHallwaySwitchUpdateButNoSendValue\", lastReceived)\n    return msg\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1355,
+        "y": 2580,
+        "wires": [
+            [
+                "d1094470.e4f9d8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e2aaba7f.329728",
+        "type": "function",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Outgoing Might\\n Be Duplicate",
+        "func": "//checkForNoSendValue = flow.get(\"xxxxxxxxxxxxxxxxxxxUpdateButNoSendValue\")\ncheckForNoSendValue = flow.get(\"FixedOutletMaybeUpdateButNoSendValue\")\nif (JSON.stringify(msg.payload) == JSON.stringify(checkForNoSendValue)){\n    flow.set(\"FixedOutletMaybeFromDashboard\", msg.payload)\n    return\n} else {\n//  flow.set(\"xxxxxxxxxxxxxxxxxxxxxxxxFromDashboard\", msg.payload)\n    flow.set(\"FixedOutletMaybeFromDashboard\", msg.payload)\n    return msg\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1555,
+        "y": 2680,
+        "wires": [
+            [
+                "f80f44bb.389708"
+            ]
+        ],
+        "icon": "node-red-contrib-sun-position/sun-white.png",
+        "l": false
+    },
+    {
+        "id": "4f2c3019.2db2",
+        "type": "function",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Incoming Might\\n Be Duplicate",
+        "func": "if (msg.payload ==\"on\"){\n    msg.payload = {\"state\":\"ON\"}\n} else if (msg.payload ==\"off\") {\n    msg.payload = {\"state\":\"OFF\"}\n} else if (msg.payload ==\"ON\"){\n    msg.payload = {\"state\":\"ON\"}\n}else if (msg.payload ==\"OFF\") {\n    msg.payload = {\"state\":\"OFF\"}\n}\n\n//lastSent = flow.get(\"xxxxxxxxxxxxxxxxxxxxxxxxFromDashboard\")\nlastSent = flow.get(\"FixedOutletMaybeFromDashboard\")\nlastReceived = msg.payload  //reformat if needed\n//if the 2 match then don't send to the Dashboard Node\nif (JSON.stringify(lastSent) == JSON.stringify(lastReceived)){\n    flow.set(\"FixedOutletMaybeUpdateButNoSendValue\", lastReceived)\n    return\n} else{\n    //flow.set(\"xxxxxxxxxxxxxxxxxxxUpdateButNoSendValue\", lastReceived)\n    flow.set(\"FixedOutletMaybeUpdateButNoSendValue\", lastReceived)\n    return msg\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1355,
+        "y": 2680,
+        "wires": [
+            [
+                "4f02ac6f.e3dd44"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "fbfdf8ac.fa4a38",
+        "type": "function",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "Get Latest Values",
+        "func": "let msg1 = {}\nlet msg2 = {}\nlet msg3 = {}\nall = global.get(\"All\")\nmsg1.payload = all[\"Upstairs Hallway Outlet\"].switch.Latest.Value\nmsg2.payload = all[\"Downstairs Hallway Switch\"].switch.Latest.Value\nmsg3.payload = all[\"Fixed Outlet Maybe\"].State.Latest.Value\nreturn [msg1, msg2, msg3]",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1255,
+        "y": 2640,
+        "wires": [
+            [
+                "b9bcfc1d.a8e1e"
+            ],
+            [
+                "a1b8c4ca.f37a78"
+            ],
+            [
+                "4f2c3019.2db2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9b721e5f.aba75",
+        "type": "switch",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "tab = 0",
+        "property": "tab",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 990,
+        "y": 2640,
+        "wires": [
+            [
+                "fbfdf8ac.fa4a38"
+            ]
+        ]
+    },
+    {
+        "id": "cf8b995e.3913f8",
+        "type": "ui_ui_control",
+        "z": "481839be.53b668",
+        "g": "b8546858.3e4eb8",
+        "name": "",
+        "events": "all",
+        "x": 960,
+        "y": 2600,
+        "wires": [
+            [
+                "9b721e5f.aba75"
+            ]
+        ]
     }
 ]
